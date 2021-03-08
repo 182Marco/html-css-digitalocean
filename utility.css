@@ -2,6 +2,10 @@
 
 /* UTILITIES di display */
 
+.vertical-middle {
+  vertical-align: middle;
+}
+
 .block {
   display: block;
 }
@@ -11,6 +15,10 @@
 
 .display-no {
   display: none;
+}
+
+.display-block {
+  display: block;
 }
 
 @media screen and (min-width: 500px) {
@@ -99,6 +107,9 @@
 .txt-right {
   text-align: right;
 }
+.txt-left {
+  text-align: left;
+}
 /* UTILITIES eliminazione elementi default
 fastidiosi nei tag */
 .no-list {
@@ -127,6 +138,9 @@ fastidiosi nei tag */
 }
 .grey-txt {
   color: #cacaca;
+}
+.dark-grey-txt {
+  color: #666;
 }
 
 /* hover */
@@ -174,6 +188,30 @@ fastidiosi nei tag */
 }
 .hover-fff-color-bg:hover {
   background-color: #fff;
+}
+
+/* UTILITIES peso dei testi */
+
+.font-w300 {
+  font-weight: 300;
+}
+.font-w400 {
+  font-weight: 400;
+}
+.font-w500 {
+  font-weight: 500;
+}
+.font-w600 {
+  font-weight: 600;
+}
+.font-w700 {
+  font-weight: 700;
+}
+.font-w800 {
+  font-weight: 800;
+}
+.font-w900 {
+  font-weight: 900;
 }
 
 /* UTILITIES arrotondamento bordi */

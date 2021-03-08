@@ -5,9 +5,6 @@
   box-sizing: border-box;
 }
 
-body {
-}
-
 /* PADDING AL MAIN CONTAINER SU MEDIA QUERIES
 PER NON INCOLLARE SCRITTE AI BORDI */
 
@@ -128,4 +125,8 @@ main .form-container form input {
 ::placeholder {
   font-size: 0.8rem;
   padding-left: 2%;
+}
+
+form a.dark-grey-txt {
+  box-shadow: 2px 2px 3px #666;
 }
