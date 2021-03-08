@@ -59,13 +59,7 @@ nav > a {
 
 /* hamburger e suo interno */
 
-.hamburger {
-  right: 3%;
-  width: 20px;
-}
-
 .hamburger-line {
-  margin: 3px 0;
   height: 3px;
   transition: all 0.5s;
 }
@@ -77,7 +71,6 @@ nav > a {
 /* HERO JUMBO-TRON */
 
 main {
-  height: 50vh;
   background-image: url('img/bg-banner-home.jpg');
   background-size: 300vw;
 }
