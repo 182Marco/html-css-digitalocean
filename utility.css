@@ -1,0 +1,168 @@
+/* UTILITIES */
+
+/* UTILITIES di display */
+
+.block {
+  display: block;
+}
+.in-line-b {
+  display: inline-block;
+}
+
+.display-no {
+  display: none;
+}
+
+@media screen and (min-width: 400px) {
+  .tablet-display-no {
+    display: none;
+  }
+  .tablet-display-block {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .desktop-display-no {
+    display: none;
+  }
+  .desktop-display-block {
+    display: block;
+  }
+}
+
+/* UTILITIES di posizione */
+
+.pos-rel {
+  position: relative;
+}
+.pos-abs {
+  position: absolute;
+}
+.center-of-abs {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centerX-of-abs {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.centerY-of-abs {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.fixed {
+  position: fixed;
+}
+
+/* UTILITIES gestione dei float */
+
+.clear-fix::after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+
+.float {
+  float: left;
+}
+
+/* UTILITIES marginature dei blocchi */
+.m-auto {
+  margin: auto;
+}
+
+/* UTILITIES UTILITIES posizione dei testi */
+
+.txt-center {
+  text-align: center;
+}
+.txt-right {
+  text-align: right;
+}
+/* UTILITIES eliminazione di simboli di lista e link */
+.no-list {
+  list-style: none;
+}
+.no-decorate {
+  text-decoration: none;
+}
+/* UTILITIES dimensione dei testi */
+/* UTILITIES colori dei testi */
+
+.brand-color {
+  color: #3a8aff;
+}
+.primary-color {
+  color: #031c4e;
+}
+.secondary-color {
+  color: #579aff;
+}
+.fff-color {
+  color: #fff;
+}
+
+/* hover */
+
+.hover-brand-color:hover {
+  color: #3a8aff;
+}
+.hover-primary-color:hover {
+  color: #031c4e;
+}
+.hover-secondary-color:hover {
+  color: #579aff;
+}
+
+.hover-fff-color:hover {
+  color: #fff;
+}
+
+/* UTILITIES colori dei background */
+
+.brand-color-bg {
+  background-color: #3a8aff;
+}
+.primary-color-bg {
+  background-color: #031c4e;
+}
+.secondary-color-bg {
+  background-color: #579aff;
+}
+
+.fff-color {
+  background-color: #fff;
+}
+
+/* hover */
+
+.hover-brand-color-bg:hover {
+  background-color: #3a8aff;
+}
+.hover-primary-color-bg:hover {
+  background-color: #031c4e;
+}
+.hover-secondary-color-bg:hover {
+  background-color: #579aff;
+}
+.hover-fff-color-bg:hover {
+  background-color: #fff;
+}
+
+/* UTILITIES varie */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* UTILITIES container */
+.main-container {
+  max-width: 1100px;
+}
