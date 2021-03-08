@@ -10,17 +10,17 @@
       integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
       crossorigin="anonymous"
     />
-    <!-- css degli stili per sezione -->
-    <link rel="stylesheet" href="index.css" />
     <!-- css delle utility -->
     <link rel="stylesheet" href="utility.css" />
+    <!-- css degli stili per sezione -->
+    <link rel="stylesheet" href="index.css" />
     <title>Digitalocean</title>
   </head>
 
   <body>
     <!-- BARRE DI NAVIGAZIONE -->
-    <header class="main-container m-auto pos-rel">
-      <img src="img/logo.png" class="centerY-of-abs ml-1-2" alt="logo" />
+    <header class="main-container pos-rel">
+      <img src="img/logo.png" class="centerY-of-abs" alt="logo" />
       <!-- navbar sx -->
       <nav
         class="centerY-of-abs display-no tablet-display-no desktop-display-block sx"
@@ -77,5 +77,47 @@
         <div class="hamburger-line brand-color-bg"></div>
       </div>
     </header>
+    <!-- HERO JUMBO-TRON -->
+    <main>
+      <div class="main-container pos-rel h100 clear-fix">
+        <!-- titolo e paragrafo sull'hero -->
+        <div class="h1-and-p-container centerY-lef0-of-abs h80 col-12 col-md-6">
+          <h1 class="fff-color pr-1-5">
+            The simplest cloud platform for developers & teams
+          </h1>
+          <p class="grey-txt mt-2 pr-1-5">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati
+            porro ducimus deleniti error sequi, repellat explicabo. Sint
+            quisquam, cumque voluptate ad enim saepe fugit voluptas, minus
+            possimus nihil adipisci at?
+          </p>
+        </div>
+        <!-- form sull'hero -->
+        <div
+          class="form-container centerY-right0-of-abs h80 col-12 col-md-6 pos-rel"
+        >
+          <div
+            class="centerY-right0-of-abs h100 w80 fff-color-bg txt-center border-rad10"
+          >
+            <!-- titoletti del form -->
+            <h2 class="primary-color mt-2">Deploy your app in seconds</h2>
+            <h2 class="brand-color">Get started now</h2>
+            <!-- campi imput -->
+            <form class="h70">
+              <input
+                type="email"
+                placeholder="Email"
+                class="w90 border-rad5 w90 h15 mt-1 no-outline"
+              />
+              <input
+                type="password"
+                placeholder="Password"
+                class="w90 h15 border-rad5 mt-1 no-outline"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
