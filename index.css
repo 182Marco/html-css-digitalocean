@@ -16,7 +16,6 @@ header {
 /* logo */
 header img {
   width: 170px;
-  margin-left: 15px;
 }
 /* nav */
 header nav.sx {
@@ -24,10 +23,6 @@ header nav.sx {
 }
 header nav.dx {
   right: 1.8%;
-}
-
-nav ul li {
-  margin: 0 0.4vw;
 }
 
 nav ul li,
@@ -43,7 +38,7 @@ nav > a {
   transition: all 0.4s;
 }
 
-/* hamburger e su interno */
+/* hamburger e suo interno */
 
 .hamburger {
   right: 3%;
