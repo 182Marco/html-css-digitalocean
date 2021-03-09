@@ -67,10 +67,6 @@ form a.dark-grey-txt {
 
 /* SEZIONE LOGHI sotto hero jumbo */
 
-section.logo-section {
-  background-color: #f3f5f9;
-}
-
 section.logo-section .main-container img {
   width: 40vw;
 }
@@ -133,6 +129,31 @@ section.deploy-and-scale .border-visibile-left {
 
 /* SEZIONE DESIGNED FOR DEVELOPERS */
 
+section.designed-for-dev span:nth-of-type(2),
+section.designed-for-dev span:nth-of-type(3),
+section.designed-for-dev span:last-of-type {
+  border: 2px solid #3a8aff;
+}
+
+section.designed-for-dev .img-wrapper::before {
+  font-size: 4rem;
+  content: '\f053';
+  color: grey;
+  font-family: 'Font Awesome 5 Free';
+}
+section.designed-for-dev .img-wrapper::after {
+  content: '\f054';
+  font-size: 4rem;
+  color: grey;
+  font-family: 'Font Awesome 5 Free';
+  background-color: red;
+}
+
+/* **************************************** */
+/* **************************************** */
+/* **************************************** */
+/* **************************************** */
+/* **************************************** */
 @media screen and (min-width: 500px) {
   body {
     background-color: coral;
