@@ -113,8 +113,21 @@ section.deploy-and-scale .border-visibile-left {
  nella sezione deploy and scale */
 
 @media screen and (min-width: 500px) {
-  section.deploy-and-scale .text-boxes > div {
-    height: 220px;
+  section.deploy-and-scale .text-boxes > div:nth-child(3),
+  section.deploy-and-scale .text-boxes > div:last-child {
+    margin-top: 85px;
+  }
+}
+@media screen and (min-width: 570px) {
+  section.deploy-and-scale .text-boxes > div:nth-child(3),
+  section.deploy-and-scale .text-boxes > div:last-child {
+    margin-top: 65px;
+  }
+}
+@media screen and (min-width: 720px) {
+  section.deploy-and-scale .text-boxes > div:nth-child(3),
+  section.deploy-and-scale .text-boxes > div:last-child {
+    margin-top: 30px;
   }
 }
 
