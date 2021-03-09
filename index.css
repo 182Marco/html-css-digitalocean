@@ -1,10 +1,3 @@
-* {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 /* PADDING AL MAIN CONTAINER SU MEDIA QUERIES
 PER NON INCOLLARE SCRITTE AI BORDI */
 
@@ -117,3 +110,44 @@ main .form-container form input {
 form a.dark-grey-txt {
   box-shadow: 2px 2px 3px #666;
 }
+
+/* SEZIONE LOGHI sotto hero jumbo */
+
+section.logo-section {
+  background-color: #f3f5f9;
+}
+
+/* portati su una linea da tablet in poi */
+@media screen and (min-width: 500px) {
+  section.logo-section .main-container img {
+    width: 15%;
+  }
+  section.logo-section .main-container img:not(.first) {
+    margin-left: 1%;
+  }
+}
+
+/* SEZIONE DEPPLOY AND SCALE */
+
+section.deploy-and-scale .border-visibile-left {
+  border-left: 1px solid #444;
+}
+
+.border-visibile-left > li {
+  font-size: 1.1rem;
+}
+
+section.deploy-and-scale .text-boxes p {
+  font-size: 0.85rem;
+}
+
+/* altezza dei box di testo da tablet in poi 
+ nella sezione deploy and scale */
+
+@media screen and (min-width: 500px) {
+  section.deploy-and-scale .text-boxes > div {
+    height: 220px;
+  }
+}
+
+/* SEZIONE DESIGNED FOR DEVELOPERS */

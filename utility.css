@@ -1,3 +1,12 @@
+/* RESET */
+
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* UTILITIES */
 
 /* UTILITIES di display */
@@ -110,6 +119,9 @@
 .txt-left {
   text-align: left;
 }
+.txt-justify {
+  text-align: justify;
+}
 /* UTILITIES eliminazione elementi default
 fastidiosi nei tag */
 .no-list {
@@ -140,7 +152,7 @@ fastidiosi nei tag */
   color: #cacaca;
 }
 .dark-grey-txt {
-  color: #666;
+  color: #606e8a;
 }
 
 /* hover */
@@ -424,6 +436,132 @@ fastidiosi nei tag */
 .w40px {
   width: 40px;
 }
+.w41px {
+  width: 41px;
+}
+.w42px {
+  width: 42px;
+}
+.w43px {
+  width: 43px;
+}
+.w44px {
+  width: 44px;
+}
+.w45px {
+  width: 45px;
+}
+.w46px {
+  width: 46px;
+}
+.w47px {
+  width: 47px;
+}
+.w48px {
+  width: 48px;
+}
+.w49px {
+  width: 49px;
+}
+.w50px {
+  width: 50px;
+}
+.w55px {
+  width: 55px;
+}
+.w60px {
+  width: 60px;
+}
+.w65px {
+  width: 65px;
+}
+.w70px {
+  width: 70px;
+}
+.w75px {
+  width: 75px;
+}
+.w80px {
+  width: 80px;
+}
+.w85px {
+  width: 85px;
+}
+.w90px {
+  width: 90px;
+}
+.w95px {
+  width: 95px;
+}
+.w100px {
+  width: 100px;
+}
+.w100px {
+  width: 100px;
+}
+.w100px {
+  width: 100px;
+}
+.w105px {
+  width: 105px;
+}
+.w110px {
+  width: 110px;
+}
+.w115px {
+  width: 115px;
+}
+.w120px {
+  width: 120px;
+}
+.w125px {
+  width: 125px;
+}
+.w130px {
+  width: 130px;
+}
+.w135px {
+  width: 135px;
+}
+.w140px {
+  width: 140px;
+}
+.w145px {
+  width: 145px;
+}
+.w150px {
+  width: 150px;
+}
+.w160px {
+  width: 160px;
+}
+.w170px {
+  width: 170px;
+}
+.w180px {
+  width: 180px;
+}
+.w190px {
+  width: 190px;
+}
+.w200px {
+  width: 200px;
+}
+.w210px {
+  width: 210px;
+}
+.w220px {
+  width: 220px;
+}
+.w230px {
+  width: 145px;
+}
+.w240px {
+  width: 240px;
+}
+.w250px {
+  width: 250px;
+}
 
 /* UTILITIES ALTEZZA*/
 
@@ -594,6 +732,132 @@ fastidiosi nei tag */
 }
 .h40px {
   height: 40px;
+}
+.h41px {
+  height: 41px;
+}
+.h42px {
+  height: 42px;
+}
+.h43px {
+  height: 43px;
+}
+.h44px {
+  height: 44px;
+}
+.h45px {
+  height: 45px;
+}
+.h46px {
+  height: 46px;
+}
+.h47px {
+  height: 47px;
+}
+.h48px {
+  height: 48px;
+}
+.h49px {
+  height: 49px;
+}
+.h50px {
+  height: 50px;
+}
+.h55px {
+  height: 55px;
+}
+.h60px {
+  height: 60px;
+}
+.h65px {
+  height: 65px;
+}
+.h70px {
+  height: 70px;
+}
+.h75px {
+  height: 75px;
+}
+.h80px {
+  height: 80px;
+}
+.h85px {
+  height: 85px;
+}
+.h90px {
+  height: 90px;
+}
+.h95px {
+  height: 95px;
+}
+.h100px {
+  height: 100px;
+}
+.h100px {
+  height: 100px;
+}
+.h100px {
+  height: 100px;
+}
+.h105px {
+  height: 105px;
+}
+.h110px {
+  height: 110px;
+}
+.h115px {
+  height: 115px;
+}
+.h120px {
+  height: 120px;
+}
+.h125px {
+  height: 125px;
+}
+.h130px {
+  height: 130px;
+}
+.h135px {
+  height: 135px;
+}
+.h140px {
+  height: 140px;
+}
+.h145px {
+  height: 145px;
+}
+.h150px {
+  height: 150px;
+}
+.h160px {
+  height: 160px;
+}
+.h170px {
+  height: 170px;
+}
+.h180px {
+  height: 180px;
+}
+.h190px {
+  height: 190px;
+}
+.h200px {
+  height: 200px;
+}
+.h210px {
+  height: 210px;
+}
+.h220px {
+  height: 220px;
+}
+.h230px {
+  height: 145px;
+}
+.h240px {
+  height: 240px;
+}
+.h250px {
+  height: 250px;
 }
 /* UTILITIES padding e margin */
 
@@ -4192,6 +4456,10 @@ fastidiosi nei tag */
 /* columns  senza larghezza specificata
 si intende mobile first < 400*/
 
+[class^='col-'] {
+  float: left;
+}
+
 .col-1 {
   width: calc((100% / 12) * 1);
 }
@@ -4228,14 +4496,7 @@ si intende mobile first < 400*/
 .col-12 {
   width: 100%;
 }
-[class^='col-'] {
-  float: left;
-  padding: 0 10px;
-  margin-top: 2vh;
-}
-[class^='col-'].p0 {
-  padding: 0;
-}
+
 /* offset */
 .offset-1 {
   margin-left: calc((100% / 12) * 1);
