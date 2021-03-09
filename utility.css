@@ -122,6 +122,15 @@
 .txt-justify {
   text-align: justify;
 }
+
+/* utlities maiuscole in testi */
+
+.uppercase {
+  text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
 /* UTILITIES eliminazione elementi default
 fastidiosi nei tag */
 .no-list-style {
