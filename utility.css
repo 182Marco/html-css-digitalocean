@@ -124,7 +124,7 @@
 }
 /* UTILITIES eliminazione elementi default
 fastidiosi nei tag */
-.no-list {
+.no-list-style {
   list-style: none;
 }
 .no-decorate {
@@ -202,6 +202,107 @@ fastidiosi nei tag */
   background-color: #fff;
 }
 
+/* UTILITIES arrotondamento bordi */
+
+.border-rad1 {
+  border-radius: 1px;
+}
+.border-rad2 {
+  border-radius: 2px;
+}
+.border-rad3 {
+  border-radius: 3px;
+}
+.border-rad4 {
+  border-radius: 4px;
+}
+.border-rad5 {
+  border-radius: 5px;
+}
+.border-rad6 {
+  border-radius: 6px;
+}
+.border-rad7 {
+  border-radius: 7px;
+}
+.border-rad8 {
+  border-radius: 8px;
+}
+.border-rad9 {
+  border-radius: 9px;
+}
+.border-rad10 {
+  border-radius: 10px;
+}
+.border-rad11 {
+  border-radius: 11px;
+}
+.border-rad12 {
+  border-radius: 12px;
+}
+.border-rad13 {
+  border-radius: 13px;
+}
+.border-rad14 {
+  border-radius: 14px;
+}
+.border-rad15 {
+  border-radius: 15px;
+}
+.border-rad16 {
+  border-radius: 16px;
+}
+.border-rad17 {
+  border-radius: 17px;
+}
+.border-rad18 {
+  border-radius: 18px;
+}
+.border-rad19 {
+  border-radius: 19px;
+}
+.border-rad20 {
+  border-radius: 20px;
+}
+.border-rad21 {
+  border-radius: 21px;
+}
+.border-rad22 {
+  border-radius: 22px;
+}
+.border-rad23 {
+  border-radius: 23px;
+}
+.border-rad24 {
+  border-radius: 24px;
+}
+.border-rad25 {
+  border-radius: 25px;
+}
+.border-rad26 {
+  border-radius: 26px;
+}
+.border-rad27 {
+  border-radius: 27px;
+}
+.border-rad28 {
+  border-radius: 28px;
+}
+.border-rad29 {
+  border-radius: 29px;
+}
+.border-rad30 {
+  border-radius: 30px;
+}
+.border-rad50 {
+  border-radius: 50%;
+}
+
+/* UTILITIES varie */
+.cursor-pointer {
+  cursor: pointer;
+}
+
 /* UTILITIES peso dei testi */
 
 .font-w300 {
@@ -226,21 +327,1032 @@ fastidiosi nei tag */
   font-weight: 900;
 }
 
-/* UTILITIES arrotondamento bordi */
+/* UTILITIES font size dei testi */
 
-.border-rad5 {
-  border-radius: 5px;
+.font-s07rem {
+  font-size: 0.7rem;
 }
-.border-rad10 {
-  border-radius: 10px;
+.font-s075rem {
+  font-size: 0.75rem;
 }
-.border-rad50 {
-  border-radius: 50%;
+.font-s08rem {
+  font-size: 0.8rem;
 }
+.font-s085rem {
+  font-size: 0.85rem;
+}
+.font-s09rem {
+  font-size: 0.9rem;
+}
+.font-s095rem {
+  font-size: 0.95rem;
+}
+.font-s1rem {
+  font-size: 1rem;
+}
+.font-s1e05rem {
+  font-size: 1.05rem;
+}
+.font-s1e1rem {
+  font-size: 1.1rem;
+}
+.font-s1e15rem {
+  font-size: 1.15rem;
+}
+.font-s1e2rem {
+  font-size: 1.2rem;
+}
+.font-s1e25rem {
+  font-size: 1.25rem;
+}
+.font-s1e3rem {
+  font-size: 1.3rem;
+}
+.font-s1e35rem {
+  font-size: 1.35rem;
+}
+.font-s1e4rem {
+  font-size: 1.4rem;
+}
+.font-s1e45rem {
+  font-size: 1.45rem;
+}
+.font-s1e5rem {
+  font-size: 1.5rem;
+}
+.font-s1e55rem {
+  font-size: 1.55rem;
+}
+.font-s1e6rem {
+  font-size: 1.6rem;
+}
+.font-s1e65rem {
+  font-size: 1.65rem;
+}
+.font-s1e7rem {
+  font-size: 1.7rem;
+}
+.font-s1e85rem {
+  font-size: 1.85rem;
+}
+.font-s1e9rem {
+  font-size: 1.9rem;
+}
+.font-s1e95rem {
+  font-size: 1.95rem;
+}
+.font-s2rem {
+  font-size: 2rem;
+}
+.font-s2e05rem {
+  font-size: 2.05rem;
+}
+.font-s2e1rem {
+  font-size: 2.1rem;
+}
+.font-s2e15rem {
+  font-size: 2.15rem;
+}
+.font-s2e2rem {
+  font-size: 2.2rem;
+}
+.font-s2e25rem {
+  font-size: 2.25rem;
+}
+.font-s2e3rem {
+  font-size: 2.3rem;
+}
+.font-s2e35rem {
+  font-size: 2.35rem;
+}
+.font-s2e4rem {
+  font-size: 2.4rem;
+}
+.font-s2e45rem {
+  font-size: 2.45rem;
+}
+.font-s2e5rem {
+  font-size: 2.5rem;
+}
+.font-s2e55rem {
+  font-size: 2.55rem;
+}
+.font-s2e6rem {
+  font-size: 2.6rem;
+}
+.font-s2e65rem {
+  font-size: 2.65rem;
+}
+.font-s2e7rem {
+  font-size: 2.7rem;
+}
+.font-s2e75rem {
+  font-size: 2.75rem;
+}
+.font-s2e8rem {
+  font-size: 2.8rem;
+}
+.font-s2e85rem {
+  font-size: 2.85rem;
+}
+.font-s2e9rem {
+  font-size: 2.9rem;
+}
+.font-s2e95rem {
+  font-size: 2.95rem;
+}
+.font-s3rem {
+  font-size: 3rem;
+}
+.font-s3e05rem {
+  font-size: 3.05rem;
+}
+.font-s3e1rem {
+  font-size: 3.1rem;
+}
+.font-s3e15rem {
+  font-size: 3.15rem;
+}
+.font-s3e2rem {
+  font-size: 3.2rem;
+}
+.font-s3e25rem {
+  font-size: 3.25rem;
+}
+.font-s3e3rem {
+  font-size: 3.3rem;
+}
+.font-s3e35rem {
+  font-size: 3.35rem;
+}
+.font-s3e4rem {
+  font-size: 3.4rem;
+}
+.font-s3e45rem {
+  font-size: 3.45rem;
+}
+.font-s3e5rem {
+  font-size: 3.5rem;
+}
+.font-s3e55rem {
+  font-size: 3.55rem;
+}
+.font-s3e6rem {
+  font-size: 3.6rem;
+}
+.font-s3e65rem {
+  font-size: 3.65rem;
+}
+.font-s3e7rem {
+  font-size: 3.7rem;
+}
+.font-s3e75rem {
+  font-size: 3.75rem;
+}
+.font-s3e8rem {
+  font-size: 3.8rem;
+}
+.font-s3e85rem {
+  font-size: 3.85rem;
+}
+.font-s3e9rem {
+  font-size: 3.9rem;
+}
+.font-s3e95rem {
+  font-size: 3.95rem;
+}
+.font-s4rem {
+  font-size: 4rem;
+}
+.font-s4e1rem {
+  font-size: 4.1rem;
+}
+.font-s4e2rem {
+  font-size: 4.2rem;
+}
+.font-s4e3rem {
+  font-size: 4.3rem;
+}
+.font-s4e4rem {
+  font-size: 4.4rem;
+}
+.font-s4e5rem {
+  font-size: 4.5rem;
+}
+.font-s4e6rem {
+  font-size: 4.6rem;
+}
+.font-s4e7rem {
+  font-size: 4.7rem;
+}
+.font-s4e8rem {
+  font-size: 4.8rem;
+}
+.font-s4e9rem {
+  font-size: 4.9rem;
+}
+.font-s5rem {
+  font-size: 5rem;
+}
+.font-s5e1rem {
+  font-size: 5.1rem;
+}
+.font-s5e2rem {
+  font-size: 5.2rem;
+}
+.font-s5e3rem {
+  font-size: 5.3rem;
+}
+.font-s5e5rem {
+  font-size: 5.4rem;
+}
+.font-s5e5rem {
+  font-size: 5.5rem;
+}
+.font-s5e6rem {
+  font-size: 5.6rem;
+}
+.font-s5e7rem {
+  font-size: 5.7rem;
+}
+.font-s5e8rem {
+  font-size: 5.8rem;
+}
+.font-s5e9rem {
+  font-size: 5.9rem;
+}
+.font-s6rem {
+  font-size: 6rem;
+}
+.font-s6e1rem {
+  font-size: 6.1rem;
+}
+.font-s6e2rem {
+  font-size: 6.2rem;
+}
+.font-s6e3rem {
+  font-size: 6.3rem;
+}
+.font-s6e4rem {
+  font-size: 6.4rem;
+}
+.font-s6e5rem {
+  font-size: 6.5rem;
+}
+.font-s6e6rem {
+  font-size: 6.6rem;
+}
+.font-s6e7rem {
+  font-size: 6.7rem;
+}
+.font-s6e8rem {
+  font-size: 6.8rem;
+}
+.font-s6e9rem {
+  font-size: 6.9rem;
+}
+.font-s7rem {
+  font-size: 7rem;
+}
+.font-s7e1rem {
+  font-size: 7.1rem;
+}
+.font-s7e2rem {
+  font-size: 7.2rem;
+}
+.font-s7e3rem {
+  font-size: 7.3rem;
+}
+.font-s7e4rem {
+  font-size: 7.4rem;
+}
+.font-s7e5rem {
+  font-size: 7.5rem;
+}
+.font-s7e6rem {
+  font-size: 7.6rem;
+}
+.font-s7e7rem {
+  font-size: 7.7rem;
+}
+.font-s7e8rem {
+  font-size: 7.8rem;
+}
+.font-s7e8rem {
+  font-size: 7.8rem;
+}
+.font-s7e9rem {
+  font-size: 7.9rem;
+}
+.font-s8rem {
+  font-size: 8rem;
+}
+.font-s8e1rem {
+  font-size: 8.1rem;
+}
+.font-s8e2rem {
+  font-size: 8.2rem;
+}
+.font-s8e3rem {
+  font-size: 8.3rem;
+}
+.font-s8e4rem {
+  font-size: 8.4rem;
+}
+.font-s8e8rem {
+  font-size: 8.5rem;
+}
+.font-s8e6rem {
+  font-size: 8.6rem;
+}
+.font-s8e7rem {
+  font-size: 8.7rem;
+}
+.font-s8e8rem {
+  font-size: 8.8rem;
+}
+.font-s8e9rem {
+  font-size: 8.9rem;
+}
+.font-s9rem {
+  font-size: 9rem;
+}
+.font-s9e1rem {
+  font-size: 9.1rem;
+}
+.font-s9e2rem {
+  font-size: 9.2rem;
+}
+.font-s9e3rem {
+  font-size: 9.3rem;
+}
+.font-s9e4rem {
+  font-size: 9.4rem;
+}
+.font-s9e5rem {
+  font-size: 9.5rem;
+}
+.font-s9e6rem {
+  font-size: 9.6rem;
+}
+.font-s9e7rem {
+  font-size: 9.7rem;
+}
+.font-s9e8rem {
+  font-size: 9.8rem;
+}
+.font-s9e9rem {
+  font-size: 9.9rem;
+}
+.font-s9e9rem {
+  font-size: 9.9rem;
+}
+.font-s10rem {
+  font-size: 10rem;
+}
+.font-s11rem {
+  font-size: 11rem;
+}
+.font-s12rem {
+  font-size: 12rem;
+}
+.font-s13rem {
+  font-size: 13rem;
+}
+.font-s14rem {
+  font-size: 14rem;
+}
+.font-s14rem {
+  font-size: 14rem;
+}
+.font-s15rem {
+  font-size: 15rem;
+}
+.font-s16rem {
+  font-size: 16rem;
+}
+.font-s17rem {
+  font-size: 17rem;
+}
+.font-s18rem {
+  font-size: 18rem;
+}
+.font-s19rem {
+  font-size: 19rem;
+}
+.font-s20rem {
+  font-size: 20rem;
+}
+.font-s30rem {
+  font-size: 30rem;
+}
+.font-s31rem {
+  font-size: 31rem;
+}
+.font-s32rem {
+  font-size: 32rem;
+}
+.font-s33rem {
+  font-size: 33rem;
+}
+.font-s34rem {
+  font-size: 34rem;
+}
+.font-s34rem {
+  font-size: 34rem;
+}
+.font-s35rem {
+  font-size: 35rem;
+}
+.font-s36rem {
+  font-size: 36rem;
+}
+.font-s37rem {
+  font-size: 37rem;
+}
+.font-s38rem {
+  font-size: 38rem;
+}
+.font-s39rem {
+  font-size: 39rem;
+}
+.font-s40rem {
+  font-size: 40rem;
+}
+.font-s41rem {
+  font-size: 41rem;
+}
+.font-s42rem {
+  font-size: 42rem;
+}
+.font-s43rem {
+  font-size: 43rem;
+}
+.font-s44rem {
+  font-size: 44rem;
+}
+.font-s45rem {
+  font-size: 45rem;
+}
+.font-s46rem {
+  font-size: 46rem;
+}
+.font-s47rem {
+  font-size: 47rem;
+}
+.font-s48rem {
+  font-size: 48rem;
+}
+.font-s49rem {
+  font-size: 49rem;
+}
+.font-s50rem {
+  font-size: 50rem;
+}
+.font-s55rem {
+  font-size: 55rem;
+}
+.font-s60rem {
+  font-size: 60rem;
+}
+.font-s65rem {
+  font-size: 65rem;
+}
+.font-s70rem {
+  font-size: 70rem;
+}
+.font-s75rem {
+  font-size: 75rem;
+}
+.font-s80rem {
+  font-size: 80rem;
+}
+.font-s85rem {
+  font-size: 85rem;
+}
+.font-s90rem {
+  font-size: 90rem;
+}
+.font-s95rem {
+  font-size: 95rem;
+}
+.font-s100rem {
+  font-size: 95rem;
+}
+/* UTILITIES line height */
 
-/* UTILITIES varie */
-.cursor-pointer {
-  cursor: pointer;
+.line-h07rem {
+  line-height: 0.7rem;
+}
+.line-h075rem {
+  line-height: 0.75rem;
+}
+.line-h08rem {
+  line-height: 0.8rem;
+}
+.line-h085rem {
+  line-height: 0.85rem;
+}
+.line-h09rem {
+  line-height: 0.9rem;
+}
+.line-h095rem {
+  line-height: 0.95rem;
+}
+.line-h1rem {
+  line-height: 1rem;
+}
+.line-h1e05rem {
+  line-height: 1.05rem;
+}
+.line-h1e1rem {
+  line-height: 1.1rem;
+}
+.line-h1e15rem {
+  line-height: 1.15rem;
+}
+.line-h1e2rem {
+  line-height: 1.2rem;
+}
+.line-h1e25rem {
+  line-height: 1.25rem;
+}
+.line-h1e3rem {
+  line-height: 1.3rem;
+}
+.line-h1e35rem {
+  line-height: 1.35rem;
+}
+.line-h1e4rem {
+  line-height: 1.4rem;
+}
+.line-h1e45rem {
+  line-height: 1.45rem;
+}
+.line-h1e5rem {
+  line-height: 1.5rem;
+}
+.line-h1e55rem {
+  line-height: 1.55rem;
+}
+.line-h1e6rem {
+  line-height: 1.6rem;
+}
+.line-h1e65rem {
+  line-height: 1.65rem;
+}
+.line-h1e7rem {
+  line-height: 1.7rem;
+}
+.line-h1e75rem {
+  line-height: 1.75rem;
+}
+.line-h1e85rem {
+  line-height: 1.85rem;
+}
+.line-h1e9rem {
+  line-height: 1.9rem;
+}
+.line-h1e95rem {
+  line-height: 1.95rem;
+}
+.line-h2rem {
+  line-height: 2rem;
+}
+.line-h2e05rem {
+  line-height: 2.05rem;
+}
+.line-h2e1rem {
+  line-height: 2.1rem;
+}
+.line-h2e15rem {
+  line-height: 2.15rem;
+}
+.line-h2e2rem {
+  line-height: 2.2rem;
+}
+.line-h2e25rem {
+  line-height: 2.25rem;
+}
+.line-h2e3rem {
+  line-height: 2.3rem;
+}
+.line-h2e35rem {
+  line-height: 2.35rem;
+}
+.line-h2e4rem {
+  line-height: 2.4rem;
+}
+.line-h2e45rem {
+  line-height: 2.45rem;
+}
+.line-h2e5rem {
+  line-height: 2.5rem;
+}
+.line-h2e55rem {
+  line-height: 2.55rem;
+}
+.line-h2e6rem {
+  line-height: 2.6rem;
+}
+.line-h2e65rem {
+  line-height: 2.65rem;
+}
+.line-h2e7rem {
+  line-height: 2.7rem;
+}
+.line-h2e75rem {
+  line-height: 2.75rem;
+}
+.line-h2e8rem {
+  line-height: 2.8rem;
+}
+.line-h2e85rem {
+  line-height: 2.85rem;
+}
+.line-h2e9rem {
+  line-height: 2.9rem;
+}
+.line-h2e95rem {
+  line-height: 2.95rem;
+}
+.line-h3rem {
+  line-height: 3rem;
+}
+.line-h3e05rem {
+  line-height: 3.05rem;
+}
+.line-h3e1rem {
+  line-height: 3.1rem;
+}
+.line-h3e15rem {
+  line-height: 3.15rem;
+}
+.line-h3e2rem {
+  line-height: 3.2rem;
+}
+.line-h3e25rem {
+  line-height: 3.25rem;
+}
+.line-h3e3rem {
+  line-height: 3.3rem;
+}
+.line-h3e35rem {
+  line-height: 3.35rem;
+}
+.line-h3e4rem {
+  line-height: 3.4rem;
+}
+.line-h3e45rem {
+  line-height: 3.45rem;
+}
+.line-h3e5rem {
+  line-height: 3.5rem;
+}
+.line-h3e55rem {
+  line-height: 3.55rem;
+}
+.line-h3e6rem {
+  line-height: 3.6rem;
+}
+.line-h3e65rem {
+  line-height: 3.65rem;
+}
+.line-h3e7rem {
+  line-height: 3.7rem;
+}
+.line-h3e75rem {
+  line-height: 3.75rem;
+}
+.line-h3e8rem {
+  line-height: 3.8rem;
+}
+.line-h3e85rem {
+  line-height: 3.85rem;
+}
+.line-h3e9rem {
+  line-height: 3.9rem;
+}
+.line-h3e95rem {
+  line-height: 3.95rem;
+}
+.line-h4rem {
+  line-height: 4rem;
+}
+.line-h4e1rem {
+  line-height: 4.1rem;
+}
+.line-h4e2rem {
+  line-height: 4.2rem;
+}
+.line-h4e3rem {
+  line-height: 4.3rem;
+}
+.line-h4e4rem {
+  line-height: 4.4rem;
+}
+.line-h4e5rem {
+  line-height: 4.5rem;
+}
+.line-h4e6rem {
+  line-height: 4.6rem;
+}
+.line-h4e7rem {
+  line-height: 4.7rem;
+}
+.line-h4e8rem {
+  line-height: 4.8rem;
+}
+.line-h4e9rem {
+  line-height: 4.9rem;
+}
+.line-h5rem {
+  line-height: 5rem;
+}
+.line-h5e1rem {
+  line-height: 5.1rem;
+}
+.line-h5e2rem {
+  line-height: 5.2rem;
+}
+.line-h5e3rem {
+  line-height: 5.3rem;
+}
+.line-h5e5rem {
+  line-height: 5.4rem;
+}
+.line-h5e5rem {
+  line-height: 5.5rem;
+}
+.line-h5e6rem {
+  line-height: 5.6rem;
+}
+.line-h5e7rem {
+  line-height: 5.7rem;
+}
+.line-h5e8rem {
+  line-height: 5.8rem;
+}
+.line-h5e9rem {
+  line-height: 5.9rem;
+}
+.line-h6rem {
+  line-height: 6rem;
+}
+.line-h6e1rem {
+  line-height: 6.1rem;
+}
+.line-h6e2rem {
+  line-height: 6.2rem;
+}
+.line-h6e3rem {
+  line-height: 6.3rem;
+}
+.line-h6e4rem {
+  line-height: 6.4rem;
+}
+.line-h6e5rem {
+  line-height: 6.5rem;
+}
+.line-h6e6rem {
+  line-height: 6.6rem;
+}
+.line-h6e7rem {
+  line-height: 6.7rem;
+}
+.line-h6e8rem {
+  line-height: 6.8rem;
+}
+.line-h6e9rem {
+  line-height: 6.9rem;
+}
+.line-h7rem {
+  line-height: 7rem;
+}
+.line-h7e1rem {
+  line-height: 7.1rem;
+}
+.line-h7e2rem {
+  line-height: 7.2rem;
+}
+.line-h7e3rem {
+  line-height: 7.3rem;
+}
+.line-h7e4rem {
+  line-height: 7.4rem;
+}
+.line-h7e5rem {
+  line-height: 7.5rem;
+}
+.line-h7e6rem {
+  line-height: 7.6rem;
+}
+.line-h7e7rem {
+  line-height: 7.7rem;
+}
+.line-h7e8rem {
+  line-height: 7.8rem;
+}
+.line-h7e8rem {
+  line-height: 7.8rem;
+}
+.line-h7e9rem {
+  line-height: 7.9rem;
+}
+.line-h8rem {
+  line-height: 8rem;
+}
+.line-h8e1rem {
+  line-height: 8.1rem;
+}
+.line-h8e2rem {
+  line-height: 8.2rem;
+}
+.line-h8e3rem {
+  line-height: 8.3rem;
+}
+.line-h8e4rem {
+  line-height: 8.4rem;
+}
+.line-h8e8rem {
+  line-height: 8.5rem;
+}
+.line-h8e6rem {
+  line-height: 8.6rem;
+}
+.line-h8e7rem {
+  line-height: 8.7rem;
+}
+.line-h8e8rem {
+  line-height: 8.8rem;
+}
+.line-h8e9rem {
+  line-height: 8.9rem;
+}
+.line-h9rem {
+  line-height: 9rem;
+}
+.line-h9e1rem {
+  line-height: 9.1rem;
+}
+.line-h9e2rem {
+  line-height: 9.2rem;
+}
+.line-h9e3rem {
+  line-height: 9.3rem;
+}
+.line-h9e4rem {
+  line-height: 9.4rem;
+}
+.line-h9e5rem {
+  line-height: 9.5rem;
+}
+.line-h9e6rem {
+  line-height: 9.6rem;
+}
+.line-h9e7rem {
+  line-height: 9.7rem;
+}
+.line-h9e8rem {
+  line-height: 9.8rem;
+}
+.line-h9e9rem {
+  line-height: 9.9rem;
+}
+.line-h9e9rem {
+  line-height: 9.9rem;
+}
+.line-h10rem {
+  line-height: 10rem;
+}
+.line-h11rem {
+  line-height: 11rem;
+}
+.line-h12rem {
+  line-height: 12rem;
+}
+.line-h13rem {
+  line-height: 13rem;
+}
+.line-h14rem {
+  line-height: 14rem;
+}
+.line-h14rem {
+  line-height: 14rem;
+}
+.line-h15rem {
+  line-height: 15rem;
+}
+.line-h16rem {
+  line-height: 16rem;
+}
+.line-h17rem {
+  line-height: 17rem;
+}
+.line-h18rem {
+  line-height: 18rem;
+}
+.line-h19rem {
+  line-height: 19rem;
+}
+.line-h20rem {
+  line-height: 20rem;
+}
+.line-h30rem {
+  line-height: 30rem;
+}
+.line-h31rem {
+  line-height: 31rem;
+}
+.line-h32rem {
+  line-height: 32rem;
+}
+.line-h33rem {
+  line-height: 33rem;
+}
+.line-h34rem {
+  line-height: 34rem;
+}
+.line-h34rem {
+  line-height: 34rem;
+}
+.line-h35rem {
+  line-height: 35rem;
+}
+.line-h36rem {
+  line-height: 36rem;
+}
+.line-h37rem {
+  line-height: 37rem;
+}
+.line-h38rem {
+  line-height: 38rem;
+}
+.line-h39rem {
+  line-height: 39rem;
+}
+.line-h40rem {
+  line-height: 40rem;
+}
+.line-h41rem {
+  line-height: 41rem;
+}
+.line-h42rem {
+  line-height: 42rem;
+}
+.line-h43rem {
+  line-height: 43rem;
+}
+.line-h44rem {
+  line-height: 44rem;
+}
+.line-h45rem {
+  line-height: 45rem;
+}
+.line-h46rem {
+  line-height: 46rem;
+}
+.line-h47rem {
+  line-height: 47rem;
+}
+.line-h48rem {
+  line-height: 48rem;
+}
+.line-h49rem {
+  line-height: 49rem;
+}
+.line-h50rem {
+  line-height: 50rem;
+}
+.line-h55rem {
+  line-height: 55rem;
+}
+.line-h60rem {
+  line-height: 60rem;
+}
+.line-h65rem {
+  line-height: 65rem;
+}
+.line-h70rem {
+  line-height: 70rem;
+}
+.line-h75rem {
+  line-height: 75rem;
+}
+.line-h80rem {
+  line-height: 80rem;
+}
+.line-h85rem {
+  line-height: 85rem;
+}
+.line-h90rem {
+  line-height: 90rem;
+}
+.line-h95rem {
+  line-height: 95rem;
+}
+.line-h100rem {
+  line-height: 95rem;
 }
 
 /* UTILITIES LARGHEZZA*/

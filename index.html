@@ -23,21 +23,25 @@
       <img src="img/logo.png" class="centerY-of-abs w170px" alt="logo" />
       <!-- navbar sx -->
       <nav
-        class="centerY-of-abs display-no tablet-display-no desktop-display-block sx"
+        class="centerY-of-abs display-no tablet-display-no desktop-display-block sx font-s08rem"
       >
         <ul>
-          <li class="no-list primary-color in-line-b hover-brand-color mx-5">
+          <li
+            class="no-list-style primary-color in-line-b hover-brand-color mx-5"
+          >
             Products <i class="fas fa-chevron-down"></i>
           </li>
-          <li class="no-list in-line-b mx-5">
+          <li class="no-list-style in-line-b mx-5">
             <a class="no-decorate primary-color hover-brand-color" href="#"
               >Costumers</a
             >
           </li>
-          <li class="no-list primary-color in-line-b hover-brand-color mx-5">
+          <li
+            class="no-list-style primary-color in-line-b hover-brand-color mx-5"
+          >
             Community <i class="fas fa-chevron-down"></i>
           </li>
-          <li class="no-list in-line-b mx-5">
+          <li class="no-list-style in-line-b mx-5">
             <a class="no-decorate primary-color hover-brand-color" href="#"
               >Pricing</a
             >
@@ -46,18 +50,20 @@
       </nav>
       <!-- navbar dx -->
       <nav
-        class="centerY-of-abs display-no tablet-display-no desktop-display-block dx txt-right"
+        class="centerY-of-abs display-no tablet-display-no desktop-display-block dx txt-right font-s08rem"
       >
         <ul class="in-line-b">
-          <li class="no-list in-line-b mx-5">
+          <li class="no-list-style in-line-b mx-5">
             <a class="no-decorate primary-color hover-brand-color" href="#"
               >Costumers</a
             >
           </li>
-          <li class="no-list primary-color in-line-b hover-brand-color mx-5">
+          <li
+            class="no-list-style primary-color in-line-b hover-brand-color mx-5"
+          >
             Community <i class="fas fa-chevron-down"></i>
           </li>
-          <li class="no-list in-line-b hover-brand-color mx-5">
+          <li class="no-list-style in-line-b hover-brand-color mx-5">
             <a class="no-decorate primary-color hover-brand-color" href="#"
               >Pricing</a
             >
@@ -90,10 +96,10 @@
         <div
           class="float h1-and-p-container col-12 col-md-7 pt-40 border-rad10"
         >
-          <h1 class="fff-color pr-27">
+          <h1 class="fff-color pr-27 font-s2rem">
             The simplest cloud platform for developers & teams
           </h1>
-          <p class="grey-txt pr-27 mt-10">
+          <p class="grey-txt pr-27 mt-10 line-h1e7rem">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati
             porro ducimus deleniti error sequi, repellat explicabo. Sint
             quisquam, cumque voluptate ad enim saepe fugit voluptas, minus
@@ -148,29 +154,74 @@
     </main>
     <!-- sezione dei loghi -->
     <section class="logo-section py-30">
-      <div class="main-container txt-justify" style="border: 1px solid blue">
+      <div class="main-container txt-justify">
         <h3 class="dark-grey-txt txt-center mb-15">
           INNOVATIVE BUSINESS TRUST DIGITALOCEAN
         </h3>
-        <img
-          src="img/docker.svg"
-          alt="doker"
-          class="w40 vertical-middle first"
-        />
-        <img src="img/gitlab.svg" alt="gitlab" class="w40 vertical-middle" />
-        <img src="img/slack.svg" alt="slack" class="w40 vertical-middle" />
-        <img
-          src="img/hashicorp.svg"
-          alt="hashicorp"
-          class="w40 vertical-middle"
-        />
-        <img
-          src="img/hashicorp.svg"
-          alt="hashicorp"
-          class="w40 vertical-middle"
-        />
-        <img src="img/splunk.svg" alt="splunk" class="w40 vertical-middle" />
-        <h3 class="secondary-color txt-center last mt-15">
+        <ul>
+          <!-- logo 1 -->
+          <li class="no-list-style in-line-b first">
+            <a href="#">
+              <img
+                src="img/docker.svg"
+                alt="doker"
+                class="vertical-middle w170px first"
+              />
+            </a>
+          </li>
+          <!-- logo 2 -->
+          <li class="no-list-style in-line-b">
+            <a href="#">
+              <img
+                src="img/gitlab.svg"
+                alt="gitlab"
+                class="vertical-middle w170px"
+              />
+            </a>
+          </li>
+          <!-- logo 3 -->
+          <li class="no-list-style in-line-b">
+            <a href="#">
+              <img
+                src="img/slack.svg"
+                alt="slack"
+                class="vertical-middle w170px"
+              />
+            </a>
+          </li>
+          <!-- logo 4 -->
+          <li class="no-list-style in-line-b">
+            <a href="#">
+              <img
+                src="img/hashicorp.svg"
+                alt="hashicorp"
+                class="vertical-middle w170px"
+              />
+            </a>
+          </li>
+          <!-- logo 5 -->
+          <li class="no-list-style in-line-b">
+            <a href="#">
+              <img
+                src="img/hashicorp.svg"
+                alt="hashicorp"
+                class="vertical-middle w170px"
+              />
+            </a>
+          </li>
+          <!-- logo 6 -->
+          <li class="no-list-style in-line-b">
+            <a href="#">
+              <img
+                src="img/splunk.svg"
+                alt="splunk"
+                class="vertical-middle w170px last"
+              />
+            </a>
+          </li>
+        </ul>
+
+        <h3 class="secondary-color txt-center mt-15">
           View costumer stories >
         </h3>
       </div>
@@ -190,12 +241,14 @@
           <div class="clear-fix">
             <div class="col-12 col-md-4 mb-20">
               <!-- bordino grigio elenco verticale  -->
-              <ul class="border-visibile-left txt-left h100">
-                <li class="no-list pt-25 dark-grey-txt pl-7">Deploy</li>
-                <li class="no-list pt-25 dark-grey-txt pl-7">Manage</li>
-                <li class="no-list pt-25 dark-grey-txt pl-7">Secure</li>
-                <li class="no-list pt-25 dark-grey-txt pl-7">Scale</li>
-                <li class="no-list pt-25 pb-25 dark-grey-txt pl-7">Monitor</li>
+              <ul class="border-visibile-left txt-left h100 font-s1e1rem">
+                <li class="no-list-style pt-25 dark-grey-txt pl-7">Deploy</li>
+                <li class="no-list-style pt-25 dark-grey-txt pl-7">Manage</li>
+                <li class="no-list-style pt-25 dark-grey-txt pl-7">Secure</li>
+                <li class="no-list-style pt-25 dark-grey-txt pl-7">Scale</li>
+                <li class="no-list-style pt-25 pb-25 dark-grey-txt pl-7">
+                  Monitor
+                </li>
               </ul>
             </div>
             <!-- 4box img + titolo + paragrafo  -->
@@ -205,7 +258,7 @@
                 <h4 class="primary-color pt-10 pb-10 pr-25">
                   Cluster deployments
                 </h4>
-                <p class="dark-grey-txt pr-23">
+                <p class="dark-grey-txt pr-23 font-s085rem">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Temporibus ratione ipsam consectetur vel.
                 </p>
@@ -213,7 +266,7 @@
               <div class="col-md-6 h130px">
                 <img src="img/optimized-compute.svg" alt="optimized" />
                 <h4 class="primary-color py-10">Optimize compute type</h4>
-                <p class="dark-grey-txt pr-23">
+                <p class="dark-grey-txt pr-23 font-s085rem">
                   Lorem ipsum, dolor sit amet. Temporibus ratione ipsam
                   consectetur vel.
                 </p>
@@ -221,7 +274,7 @@
               <div class="col-md-6 h130px">
                 <img src="img/one-click.svg" alt="one-click" />
                 <h4 class="primary-color py-10">One-clip apps</h4>
-                <p class="dark-grey-txt pr-23">
+                <p class="dark-grey-txt pr-23 font-s085rem">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Provident esse temporibus nesciunt vitae nostrum doloremque
                   at.
@@ -230,7 +283,7 @@
               <div class="col-md-6 h130px">
                 <img src="img/global.svg" alt="global" />
                 <h4 class="primary-color py-10">Global availability</h4>
-                <p class="dark-grey-txt pr-23">
+                <p class="dark-grey-txt pr-23 font-s085rem">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
               </div>

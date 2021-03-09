@@ -4,15 +4,11 @@ PER NON INCOLLARE SCRITTE AI BORDI */
 .main-container {
   margin: 0 3vw;
 }
-@media screen and (min-width: 500px) {
-  .main-container {
-  }
-}
 
 @media screen and (min-width: 950px) {
   .main-container {
     margin: 0 auto;
-    width: 80vw;
+    max-width: 850px;
   }
 }
 
@@ -29,7 +25,6 @@ header nav.dx {
 nav ul li,
 nav ul li a {
   transition: color 0.3s;
-  font-size: 0.8rem;
 }
 /* bottone in fondo sx nav a sx */
 
@@ -55,47 +50,6 @@ main {
   background-size: 300vw;
 }
 
-/* adattammento testi e grandezza pattern di background */
-
-.h1-and-p-container h1 {
-  font-size: 2rem;
-}
-
-.h1-and-p-container p {
-  line-height: 1.4rem;
-}
-
-@media screen and (min-width: 500px) {
-  main {
-    background-size: 160vw;
-  }
-  .h1-and-p-container h1 {
-    font-size: 1.9rem;
-  }
-  .h1-and-p-container p {
-    line-height: 1.3rem;
-  }
-  body {
-    background-color: coral;
-  }
-}
-
-@media screen and (min-width: 950px) {
-  main {
-    background-size: 120vw;
-  }
-  .h1-and-p-container h1 {
-    font-size: 2.5rem;
-  }
-  .h1-and-p-container p {
-    font-size: 1.2rem;
-    line-height: 1.5rem;
-  }
-  body {
-    background-color: #fff;
-  }
-}
-
 /* form sull hero jumbotron */
 
 main .form-container form input {
@@ -117,13 +71,35 @@ section.logo-section {
   background-color: #f3f5f9;
 }
 
+section.logo-section .main-container img {
+  width: 40vw;
+}
+/* marginatura left ultima img del blocchi loghi
+per far funzionare su mobile anche l'ultima riga
+del  text-align: justify */
+section.logo-section .main-container img.last {
+  margin-left: 30%;
+}
+
 /* portati su una linea da tablet in poi */
+
 @media screen and (min-width: 500px) {
   section.logo-section .main-container img {
-    width: 15%;
+    width: 14vw;
   }
-  section.logo-section .main-container img:not(.first) {
-    margin-left: 1%;
+  section.logo-section .main-container li:not(.first) {
+    margin-left: 1.1%;
+  }
+  section.logo-section .main-container img.last {
+    margin-left: 0;
+  }
+}
+@media screen and (min-width: 950px) {
+  section.logo-section .main-container img {
+    width: 125px;
+  }
+  section.logo-section .main-container li:not(.first) {
+    margin-left: 1.75%;
   }
 }
 
@@ -131,14 +107,6 @@ section.logo-section {
 
 section.deploy-and-scale .border-visibile-left {
   border-left: 1px solid #444;
-}
-
-.border-visibile-left > li {
-  font-size: 1.1rem;
-}
-
-section.deploy-and-scale .text-boxes p {
-  font-size: 0.85rem;
 }
 
 /* altezza dei box di testo da tablet in poi 
@@ -151,3 +119,14 @@ section.deploy-and-scale .text-boxes p {
 }
 
 /* SEZIONE DESIGNED FOR DEVELOPERS */
+
+@media screen and (min-width: 500px) {
+  body {
+    background-color: coral;
+  }
+}
+@media screen and (min-width: 950px) {
+  body {
+    background-color: #fff;
+  }
+}
