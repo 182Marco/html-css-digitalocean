@@ -215,3 +215,33 @@ LOVES DIGITAL OCEAN */
 .get-strted {
   background-color: #00229d;
 }
+
+/* SQUALETTO CHAT */
+
+.shark.fixed {
+  bottom: 15%;
+  left: 10%;
+}
+.shark.fixed .notification {
+  top: 8%;
+  left: 92%;
+  transform: translate(-50%, -50%);
+}
+.shark.fixed .chat-wrappper {
+  top: 120%;
+  left: 0;
+}
+.shark.fixed textarea {
+  resize: none;
+}
+.shark.fixed .chat::placeholder {
+  color: #031c4e;
+  font-size: 0.8rem;
+}
+.shark.fixed .chat-wrappper .point {
+  bottom: 18%;
+  left: 97%;
+  transform: rotate(-45deg);
+  border-bottom: 1px solid #031c4e;
+  border-right: 1px solid #031c4e;
+}
