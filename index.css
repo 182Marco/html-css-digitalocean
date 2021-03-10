@@ -234,7 +234,7 @@ LOVES DIGITAL OCEAN */
 .shark.fixed textarea {
   resize: none;
 }
-.shark.fixed .chat::placeholder {
+.shark.fixed textarea::placeholder {
   color: #031c4e;
   font-size: 0.8rem;
 }
