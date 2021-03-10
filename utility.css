@@ -14,6 +14,9 @@
 .vertical-middle {
   vertical-align: middle;
 }
+.vertical-align-sub {
+  vertical-align: sub;
+}
 
 .block {
   display: block;
@@ -158,7 +161,7 @@ fastidiosi nei tag */
   color: #fff;
 }
 .grey-txt {
-  color: #cacaca;
+  color: #999;
 }
 .dark-grey-txt {
   color: #606e8a;

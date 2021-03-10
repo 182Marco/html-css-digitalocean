@@ -127,22 +127,24 @@ section.designed-for-dev span:nth-of-type(3),
 section.designed-for-dev span:last-of-type {
   border: 2px solid #3a8aff;
 }
-
-section.designed-for-dev .img-wrapper::before {
-  content: '\f104';
-  font-size: 3.3rem;
-  color: grey;
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-  padding-right: 10px;
-}
-section.designed-for-dev .img-wrapper::after {
-  content: '\f105';
-  font-size: 3.3rem;
-  color: grey;
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-  padding-left: 10px;
+/* frecce laterali img che compaiono solo da tablet in poi */
+@media screen and (min-width: 500px) {
+  section.designed-for-dev .img-wrapper::before {
+    content: '\f104';
+    font-size: 3.3rem;
+    color: grey;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    padding-right: 10px;
+  }
+  section.designed-for-dev .img-wrapper::after {
+    content: '\f105';
+    font-size: 3.3rem;
+    color: grey;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    padding-left: 10px;
+  }
 }
 
 /* SERVICE COSTUMERS AROUND THE WORLD 12 REGIONS */
@@ -183,15 +185,33 @@ sx e dx della tabella su mobile*/
 .service-arund-world .line span:last-child {
   color: #00d5d1;
 }
-/* **************************************** */
 
+/* SEZIONE DEVELOPMENT TEAMS 
+LOVES DIGITAL OCEAN */
+
+.slider-second {
+  width: 305px;
+  height: 340px;
+}
+.slider-second .fa-angle-right,
+.slider-second .fa-angle-left {
+  display: none;
+}
+
+/* frecce laterali non visibili su mobile */
 @media screen and (min-width: 500px) {
-  body {
-    background-color: coral;
+  .slider-second .fa-angle-right {
+    display: block;
+    left: 105%;
+  }
+  .slider-second .fa-angle-left {
+    display: block;
+    right: 105%;
   }
 }
-@media screen and (min-width: 950px) {
-  body {
-    background-color: #fff;
-  }
+
+/* SEZIONE GET STARTED */
+
+.get-strted {
+  background-color: #00229d;
 }
