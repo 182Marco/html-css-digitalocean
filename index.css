@@ -12,9 +12,7 @@ PER NON INCOLLARE SCRITTE AI BORDI */
   }
 }
 
-/* HEADER */
-
-/* nav */
+/* HEADER nav */
 header nav.sx {
   left: 25%;
 }
@@ -29,7 +27,6 @@ nav ul li a {
 /* bottone in fondo sx nav a sx */
 
 nav > a {
-  border: 1px solid #3a8aff;
   transition: all 0.4s;
 }
 
@@ -47,14 +44,10 @@ nav > a {
 
 main {
   background-image: url('img/bg-banner-home.jpg');
-  background-size: 300vw;
+  background-size: 1750px;
 }
 
 /* form sull hero jumbotron */
-
-main .form-container form input {
-  border: 1px solid #cacaca;
-}
 
 ::placeholder {
   font-size: 0.8rem;
@@ -102,7 +95,7 @@ section.logo-section .main-container img.last {
 /* SEZIONE DEPPLOY AND SCALE */
 
 section.deploy-and-scale .border-visibile-left {
-  border-left: 1px solid #444;
+  border-left: 1px solid #606e8a;
 }
 
 /* altezza dei box di testo da tablet in poi 
@@ -136,24 +129,62 @@ section.designed-for-dev span:last-of-type {
 }
 
 section.designed-for-dev .img-wrapper::before {
-  font-size: 4rem;
-  content: '\f053';
+  content: '\f104';
+  font-size: 3.3rem;
   color: grey;
   font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  padding-right: 10px;
 }
 section.designed-for-dev .img-wrapper::after {
-  content: '\f054';
-  font-size: 4rem;
+  content: '\f105';
+  font-size: 3.3rem;
   color: grey;
   font-family: 'Font Awesome 5 Free';
-  background-color: red;
+  font-weight: 900;
+  padding-left: 10px;
 }
 
+/* SERVICE COSTUMERS AROUND THE WORLD 12 REGIONS */
+
+section.service-arund-world {
+  background-image: linear-gradient(180deg, #0047c5, #001e99);
+}
+
+/* linee della tablla 
+eccetto quella in fondo */
+.table-box .line:not(.last) {
+  border-bottom: 2px solid #fff;
+}
+
+/* tornare una sotto l'altra parte
+sx e dx della tabella su mobile*/
+@media screen and (min-width: 950px) {
+  section.service-arund-world .side-sx,
+  section.service-arund-world .side-dx {
+    display: inline-block;
+    width: 48%;
+  }
+  /* far sparire l'ultima riga della
+   colonna sx quando tornano in linea*/
+  section.service-arund-world .table-box .colum-end {
+    border: 0;
+  }
+  /* parte sx e dx su desktop della tabella */
+  section.service-arund-world .side-sx {
+    margin-right: 1.5%;
+  }
+  section.service-arund-world .side-dx {
+    margin-left: 1.5%;
+  }
+}
+
+/* colore link in fondo alla linea  */
+.service-arund-world .line span:last-child {
+  color: #00d5d1;
+}
 /* **************************************** */
-/* **************************************** */
-/* **************************************** */
-/* **************************************** */
-/* **************************************** */
+
 @media screen and (min-width: 500px) {
   body {
     background-color: coral;
