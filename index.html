@@ -816,25 +816,26 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
     <div id="app">
       <!-- wrapper background -->
-      <div
-        @click="display = !display"
-        class="brand-color-bg shark fixed p-8 border-rad5"
-      >
+      <div class="brand-color-bg shark fixed border-rad5">
         <!-- pallino noditifiche -->
-        <div
-          class="notification red-bg border-rad50 w24px h24px border-3px pos-abs fff-color"
-        >
-          <div class="fff-color font-s08rem center-of-abs">2</div>
-        </div>
-        <img src="img/shark.png" alt="squalo" class="w35px" />
-        <div class="chat-wrappper pos-abs w270px h70px">
+        <a @click="display = !display" href="#">
+          <div
+            class="notification red-bg border-rad50 w24px h24px border-3px pos-abs fff-color"
+          >
+            <div class="fff-color font-s08rem center-of-abs">2</div>
+          </div>
+        </a>
+        <a @click="display = !display" href="#" class="in-line-b p-8">
+          <img src="img/shark.png" alt="squalo" class="w35px" />
+        </a>
+        <div v-show="display" class="chat-wrappper pos-abs w270px h70px">
           <textarea
-            v-show="display"
             placeholder="Can I help you answer any questions you have about DigitalOcean?"
             name=""
             id=""
             class="pos-abs w270px h70px border-1px border-rad5 primary-color font-w400 font-s08rem pl-10 pr-20 pt-10 pb-10 no-outline no-border"
-          ></textarea>
+          >
+          </textarea>
           <div
             v-show="display"
             class="point pos-abs fff-color-bg w17px h17px border-rad3"
