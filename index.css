@@ -229,13 +229,12 @@ LOVES DIGITAL OCEAN */
 }
 .shark.fixed .chat-wrappper {
   top: 120%;
-  left: 0;
   animation: slide-in ease 0.2s 1 forwards;
 }
 
 @keyframes slide-in {
   0% {
-    left: -900%;
+    left: -1000%;
   }
   100% {
     left: 0;

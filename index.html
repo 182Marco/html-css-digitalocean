@@ -813,19 +813,26 @@
       </div>
     </footer>
     <!--  SQUALETTO CHAT -->
+    <!-- cdn Vue -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
     <div id="app">
       <!-- wrapper background -->
       <div class="brand-color-bg shark fixed border-rad5">
         <!-- pallino noditifiche -->
-        <a @click="display = !display" href="#">
+        <a @click="display = !display; azzeraNotifiche();" href="#">
           <div
             class="notification red-bg border-rad50 w24px h24px border-3px pos-abs fff-color"
           >
-            <div class="fff-color font-s08rem center-of-abs">2</div>
+            <div class="fff-color font-s08rem center-of-abs">
+              {{nuoveNotifiche}}
+            </div>
           </div>
         </a>
-        <a @click="display = !display" href="#" class="in-line-b p-8">
+        <a
+          @click="display = !display; azzeraNotifiche ();"
+          href="#"
+          class="in-line-b p-8"
+        >
           <img src="img/shark.png" alt="squalo" class="w35px" />
         </a>
         <div v-show="display" class="chat-wrappper pos-abs w270px h70px">
@@ -848,6 +855,12 @@
         el: '#app',
         data: {
           display: false,
+          nuoveNotifiche: 2,
+        },
+        methods: {
+          azzeraNotifiche: function () {
+            this.nuoveNotifiche = 0;
+          },
         },
       });
     </script>
