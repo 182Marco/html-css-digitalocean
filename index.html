@@ -18,801 +18,902 @@
   </head>
 
   <body>
-    <!-- ,m.m.sm<s. -->
-    <!-- BARRE DI NAVIGAZIONE -->
-    <header class="main-container pos-rel h60px">
-      <img src="img/logo.png" class="centerY-of-abs w170px" alt="logo" />
-      <!-- navbar sx -->
-      <nav
-        class="centerY-of-abs display-no tablet-display-no desktop-display-block sx font-s08rem no-list-style"
-      >
-        <ul>
-          <li class="primary-color in-line-b hover-brand-color mx-5">
-            Products <i class="fas fa-chevron-down"></i>
-          </li>
-          <li class="in-line-b mx-5">
-            <a class="no-decorate primary-color hover-brand-color" href="#"
-              >Costumers</a
+    <!-- cdn Vue -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <div id="app">
+      <!-- BARRE DI NAVIGAZIONE -->
+      <div class="header-full-with pos-rel">
+        <header class="main-container pos-rel h60px">
+          <img src="img/logo.png" class="centerY-of-abs w170px" alt="logo" />
+          <!-- navbar sx -->
+          <nav
+            class="centerY-of-abs display-no tablet-display-no desktop-display-block sx font-s08rem no-list-style"
+          >
+            <ul>
+              <li class="primary-color in-line-b hover-brand-color mx-5">
+                Products <i class="fas fa-chevron-down"></i>
+              </li>
+              <li class="in-line-b mx-5">
+                <a class="no-decorate primary-color hover-brand-color" href="#"
+                  >Costumers</a
+                >
+              </li>
+              <li class="primary-color in-line-b hover-brand-color mx-5">
+                Community <i class="fas fa-chevron-down"></i>
+              </li>
+              <li class="in-line-b mx-5">
+                <a class="no-decorate primary-color hover-brand-color" href="#"
+                  >Pricing</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <!-- navbar dx -->
+          <nav
+            class="centerY-of-abs display-no tablet-display-no desktop-display-block dx txt-right font-s08rem"
+          >
+            <ul class="in-line-b no-list-style">
+              <li class="in-line-b mx-5">
+                <a class="no-decorate primary-color hover-brand-color" href="#"
+                  >Costumers</a
+                >
+              </li>
+              <li class="primary-color in-line-b hover-brand-color mx-5">
+                Community <i class="fas fa-chevron-down"></i>
+              </li>
+              <li class="in-line-b hover-brand-color mx-5">
+                <a class="no-decorate primary-color hover-brand-color" href="#"
+                  >Pricing</a
+                >
+              </li>
+            </ul>
+            <!-- bottone fine nav sx -->
+            <a
+              class="in-line-b no-decorate brand-color hover-brand-color-bg hover-fff-color p-5 border-rad5 border-1px"
+              href="#"
+              >Sign Up</a
             >
-          </li>
-          <li class="primary-color in-line-b hover-brand-color mx-5">
-            Community <i class="fas fa-chevron-down"></i>
-          </li>
-          <li class="in-line-b mx-5">
-            <a class="no-decorate primary-color hover-brand-color" href="#"
-              >Pricing</a
-            >
-          </li>
-        </ul>
-      </nav>
-      <!-- navbar dx -->
-      <nav
-        class="centerY-of-abs display-no tablet-display-no desktop-display-block dx txt-right font-s08rem"
-      >
-        <ul class="in-line-b no-list-style">
-          <li class="in-line-b mx-5">
-            <a class="no-decorate primary-color hover-brand-color" href="#"
-              >Costumers</a
-            >
-          </li>
-          <li class="primary-color in-line-b hover-brand-color mx-5">
-            Community <i class="fas fa-chevron-down"></i>
-          </li>
-          <li class="in-line-b hover-brand-color mx-5">
-            <a class="no-decorate primary-color hover-brand-color" href="#"
-              >Pricing</a
-            >
-          </li>
-        </ul>
-        <!-- bottone fine nav sx -->
-        <a
-          class="in-line-b no-decorate brand-color hover-brand-color-bg hover-fff-color p-5 border-rad5 border-1px"
-          href="#"
-          >Sign Up</a
+          </nav>
+          <!-- hamburger -->
+          <div
+            @click="displayMenuMob = !displayMenuMob"
+            class="hamburger centerY-right0-of-abs desktop-display-no w27px"
+          >
+            <div
+              class="hamburger-line brand-color-bg h3px hover-primary-color-bg"
+            ></div>
+            <div
+              class="hamburger-line brand-color-bg mt-4 h3px hover-primary-color-bg"
+            ></div>
+            <div
+              class="hamburger-line brand-color-bg mt-4 h3px hover-primary-color-bg"
+            ></div>
+          </div>
+        </header>
+        <!-- MENU MOBILE -->
+        <div
+          v-show="displayMenuMob"
+          class="menu-mobile pos-abs w100vw primary-color-bg z-index-20"
         >
-      </nav>
-      <!-- hamburger -->
-      <div class="hamburger centerY-right0-of-abs desktop-display-no w27px">
-        <div
-          class="hamburger-line brand-color-bg h3px hover-primary-color-bg"
-        ></div>
-        <div
-          class="hamburger-line brand-color-bg mt-4 h3px hover-primary-color-bg"
-        ></div>
-        <div
-          class="hamburger-line brand-color-bg mt-4 h3px hover-primary-color-bg"
-        ></div>
-      </div>
-    </header>
-    <!-- HERO JUMBO-TRON -->
-    <main>
-      <div class="main-container pos-rel h100 clear-fix pb-27">
-        <!-- titolo e paragrafo sull'hero -->
-        <div
-          class="float h1-and-p-container col-12 col-md-7 pt-40 border-rad10"
-        >
-          <h1 class="fff-color pr-27 font-s2rem">
-            The simplest cloud platform for developers & teams
-          </h1>
-          <p class="light-grey-txt pr-27 mt-10 line-h1e7rem">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati
-            porro ducimus deleniti error sequi, repellat explicabo. Sint
-            quisquam, cumque voluptate ad enim saepe fugit voluptas, minus
-            possimus nihil adipisci at?
-          </p>
+          <ul
+            class="flex-y space-around ml-50 no-list-style uppercase font-w700"
+          >
+            <li @click="displayMenuMob = !displayMenuMob">
+              <a class="no-decorate fff-color hover-brand-color" href="#">
+                Products</a
+              >
+            </li>
+            <li @click="displayMenuMob = !displayMenuMob">
+              <a class="no-decorate fff-color hover-brand-color" href="#">
+                Costumers</a
+              >
+            </li>
+            <li @click="displayMenuMob = !displayMenuMob">
+              <a class="no-decorate fff-color hover-brand-color" href="#">
+                Community</a
+              >
+            </li>
+            <li @click="displayMenuMob = !displayMenuMob">
+              <a class="no-decorate fff-color hover-brand-color" href="#">
+                Community</a
+              >
+            </li>
+            <li @click="displayMenuMob = !displayMenuMob">
+              <a class="no-decorate fff-color hover-brand-color" href="#">
+                Costumers</a
+              >
+            </li>
+            <li @click="displayMenuMob = !displayMenuMob">
+              <a class="no-decorate fff-color hover-brand-color" href="#">
+                Community</a
+              >
+            </li>
+            <li @click="displayMenuMob = !displayMenuMob">
+              <a class="no-decorate fff-color hover-brand-color" href="#">
+                Pricing</a
+              >
+            </li>
+            <li @click="displayMenuMob = !displayMenuMob">
+              <a class="no-decorate fff-color hover-brand-color" href="#">
+                Sign-up</a
+              >
+            </li>
+            <li @click="displayMenuMob = !displayMenuMob">
+              <a class="no-decorate fff-color hover-brand-color" href="#">
+                Exit menu</a
+              >
+            </li>
+          </ul>
         </div>
-        <!-- form su hero -->
-        <div class="float form-container col-12 col-md-5 pt-30">
-          <div class="h100 w100 fff-color-bg txt-center border-rad10 py-20">
-            <!-- titoletti del form -->
-            <h2 class="primary-color mt-2">Deploy your app in seconds</h2>
-            <h2 class="brand-color mt-7">Get started now</h2>
-            <!-- campi imput -->
-            <form class="h70">
-              <input
-                type="email"
-                placeholder="Email"
-                class="w90 border-rad5 w90 h30px my-15 no-outline border-1px"
-              />
-              <input
-                type="password"
-                placeholder="Password"
-                class="w90 h30px border-rad5 no-outline border-1px"
-              />
-              <!-- bottoni del form -->
-              <a
-                class="secondary-color-bg display-block fff-color no-decorate border-rad5 mt-15 p-8 w90 m-auto hover-primary-color font-w600"
-                href="#"
-                >Create your account</a
-              >
-              <a
-                class="display-block dark-grey-txt no-decorate border-rad5 p-8 w90 m-auto mt-15 hover-primary-color font-w600 pos-rel"
-                href="#"
-              >
-                <img
-                  src="img/google-icon.png"
-                  alt="google"
-                  class="w10 centerY-lef0-of-abs pl-15"
+      </div>
+      <!-- HERO JUMBO-TRON -->
+      <main>
+        <div class="main-container pos-rel h100 clear-fix pb-27">
+          <!-- titolo e paragrafo sull'hero -->
+          <div
+            class="float h1-and-p-container col-12 col-md-7 pt-40 border-rad10"
+          >
+            <h1 class="fff-color pr-27 font-s2rem">
+              The simplest cloud platform for developers & teams
+            </h1>
+            <p class="light-grey-txt pr-27 mt-10 line-h1e7rem">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Obcaecati porro ducimus deleniti error sequi, repellat explicabo.
+              Sint quisquam, cumque voluptate ad enim saepe fugit voluptas,
+              minus possimus nihil adipisci at?
+            </p>
+          </div>
+          <!-- form su hero -->
+          <div class="float form-container col-12 col-md-5 pt-30">
+            <div class="h100 w100 fff-color-bg txt-center border-rad10 py-20">
+              <!-- titoletti del form -->
+              <h2 class="primary-color mt-2">Deploy your app in seconds</h2>
+              <h2 class="brand-color mt-7">Get started now</h2>
+              <!-- campi imput -->
+              <form class="h70">
+                <input
+                  type="email"
+                  placeholder="Email"
+                  class="w90 border-rad5 w90 h30px my-15 no-outline border-1px"
                 />
-                Sign up with google</a
-              >
-              <span class="in-line-b primary-color pt-15 w90 h3px hover">
-                By signing up you agree to the
-                <a href="#" class="secondary-color hover-primary-color"
-                  >terms of service</a
-                ></span
-              >
-            </form>
+                <input
+                  type="password"
+                  placeholder="Password"
+                  class="w90 h30px border-rad5 no-outline border-1px"
+                />
+                <!-- bottoni del form -->
+                <a
+                  class="secondary-color-bg display-block fff-color no-decorate border-rad5 mt-15 p-8 w90 m-auto hover-primary-color-bg font-w600"
+                  href="#"
+                  >Create your account</a
+                >
+                <a
+                  class="display-block dark-grey-txt no-decorate border-rad5 p-8 w90 m-auto mt-15 hover-primary-color font-w600 pos-rel"
+                  href="#"
+                >
+                  <img
+                    src="img/google-icon.png"
+                    alt="google"
+                    class="w10 centerY-lef0-of-abs pl-15"
+                  />
+                  Sign up with google</a
+                >
+                <span class="in-line-b primary-color pt-15 w90 h3px hover">
+                  By signing up you agree to the
+                  <a href="#" class="secondary-color hover-primary-color"
+                    >terms of service</a
+                  ></span
+                >
+              </form>
+            </div>
           </div>
         </div>
-      </div>
-    </main>
-    <!-- SEZIONE DEI LOGHI -->
-    <section class="logo-section lightblue-color-bg py-30">
-      <div class="main-container txt-justify">
-        <h3 class="dark-grey-txt txt-center mb-15">
-          INNOVATIVE BUSINESS TRUST DIGITALOCEAN
-        </h3>
-        <ul class="no-list-style">
-          <!-- logo 1 -->
-          <li class="in-line-b first">
-            <a href="#">
-              <img
-                src="img/docker.svg"
-                alt="doker"
-                class="vertical-middle w170px first"
-              />
-            </a>
-          </li>
-          <!-- logo 2 -->
-          <li class="in-line-b">
-            <a href="#">
-              <img
-                src="img/gitlab.svg"
-                alt="gitlab"
-                class="vertical-middle w170px"
-              />
-            </a>
-          </li>
-          <!-- logo 3 -->
-          <li class="in-line-b">
-            <a href="#">
-              <img
-                src="img/slack.svg"
-                alt="slack"
-                class="vertical-middle w170px"
-              />
-            </a>
-          </li>
-          <!-- logo 4 -->
-          <li class="in-line-b">
-            <a href="#">
-              <img
-                src="img/hashicorp.svg"
-                alt="hashicorp"
-                class="vertical-middle w170px"
-              />
-            </a>
-          </li>
-          <!-- logo 5 -->
-          <li class="in-line-b">
-            <a href="#">
-              <img
-                src="img/hashicorp.svg"
-                alt="hashicorp"
-                class="vertical-middle w170px"
-              />
-            </a>
-          </li>
-          <!-- logo 6 -->
-          <li class="in-line-b">
-            <a href="#">
-              <img
-                src="img/splunk.svg"
-                alt="splunk"
-                class="vertical-middle w170px last"
-              />
-            </a>
-          </li>
-        </ul>
-        <a href="#" class="no-decorate">
-          <h3 class="secondary-color txt-center mt-15 hover-primary-color">
-            View costumer stories >
+      </main>
+      <!-- SEZIONE DEI LOGHI -->
+      <section class="logo-section lightblue-color-bg py-30">
+        <div class="main-container txt-justify">
+          <h3 class="dark-grey-txt txt-center mb-15">
+            INNOVATIVE BUSINESS TRUST DIGITALOCEAN
           </h3>
-        </a>
-      </div>
-    </section>
-    <!-- sezione deploy and scale -->
-    <section
-      class="deploy-and-scale main-container txt-center primary-color py-80"
-    >
-      <h2>Deploy and scale seamlessly</h2>
-      <p class="mt-20 mb-40">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. A natus
-        reprehenderit voluptatibus. Provident consectetur culpa natus tenetur
-        obcaecati quidem repellat labore perspiciatis!
-      </p>
-      <div class="clear-fix">
-        <div class="col-12 col-md-10 offset-md-1">
-          <div class="clear-fix">
-            <div class="col-12 col-md-4 mb-20">
-              <!-- bordino grigio elenco verticale  -->
-              <ul
-                class="no-list-style border-visibile-left txt-left h100 font-s1e1rem"
-              >
-                <li class="pt-25 dark-grey-txt pl-7">Deploy</li>
-                <li class="pt-25 dark-grey-txt pl-7">Manage</li>
-                <li class="pt-25 dark-grey-txt pl-7">Secure</li>
-                <li class="pt-25 dark-grey-txt pl-7">Scale</li>
-                <li class="pt-25 pb-25 dark-grey-txt pl-7">Monitor</li>
-              </ul>
-            </div>
-            <!-- 4box img + titolo + paragrafo  -->
-            <div class="text-boxes col-12 col-md-8 clear-fix txt-left float">
-              <!-- box 1 -->
-              <div class="col-md-6 h140px">
-                <img src="img/cluster-deploy.svg" alt="cluster" class="" />
-                <h4 class="primary-color pt-10 pb-10 pr-25">
-                  Cluster deployments
-                </h4>
-                <p class="dark-grey-txt pr-23 font-s085rem">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Temporibus ratione ipsam consectetur vel.
-                </p>
-              </div>
-              <!-- box 2 -->
-              <div class="col-md-6 h140px">
-                <img src="img/optimized-compute.svg" alt="optimized" />
-                <h4 class="primary-color py-10">Optimize compute type</h4>
-                <p class="dark-grey-txt pr-23 font-s085rem">
-                  Lorem ipsum, dolor sit amet. Temporibus ratione ipsam
-                  consectetur vel.
-                </p>
-              </div>
-              <!-- box 3 -->
-              <div class="col-md-6 h150px">
-                <img src="img/one-click.svg" alt="one-click" />
-                <h4 class="primary-color py-10">One-clip apps</h4>
-                <p class="dark-grey-txt pr-23 font-s085rem">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Provident esse temporibus nesciunt vitae nostrum doloremque
-                  at.
-                </p>
-              </div>
-              <!-- box 4 -->
-              <div class="col-md-6 h140px">
-                <img src="img/global.svg" alt="global" />
-                <h4 class="primary-color py-10">Global availability</h4>
-                <p class="dark-grey-txt pr-23 font-s085rem">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
-              </div>
-            </div>
-          </div>
+          <ul class="no-list-style">
+            <!-- logo 1 -->
+            <li class="in-line-b first">
+              <a href="#">
+                <img
+                  src="img/docker.svg"
+                  alt="doker"
+                  class="vertical-middle w170px first"
+                />
+              </a>
+            </li>
+            <!-- logo 2 -->
+            <li class="in-line-b">
+              <a href="#">
+                <img
+                  src="img/gitlab.svg"
+                  alt="gitlab"
+                  class="vertical-middle w170px"
+                />
+              </a>
+            </li>
+            <!-- logo 3 -->
+            <li class="in-line-b">
+              <a href="#">
+                <img
+                  src="img/slack.svg"
+                  alt="slack"
+                  class="vertical-middle w170px"
+                />
+              </a>
+            </li>
+            <!-- logo 4 -->
+            <li class="in-line-b">
+              <a href="#">
+                <img
+                  src="img/hashicorp.svg"
+                  alt="hashicorp"
+                  class="vertical-middle w170px"
+                />
+              </a>
+            </li>
+            <!-- logo 5 -->
+            <li class="in-line-b">
+              <a href="#">
+                <img
+                  src="img/hashicorp.svg"
+                  alt="hashicorp"
+                  class="vertical-middle w170px"
+                />
+              </a>
+            </li>
+            <!-- logo 6 -->
+            <li class="in-line-b">
+              <a href="#">
+                <img
+                  src="img/splunk.svg"
+                  alt="splunk"
+                  class="vertical-middle w170px last"
+                />
+              </a>
+            </li>
+          </ul>
+          <a href="#" class="no-decorate">
+            <h3 class="secondary-color txt-center mt-15 hover-primary-color">
+              View costumer stories >
+            </h3>
+          </a>
         </div>
-      </div>
-    </section>
-    <!-- SEZIONE DESIGNED FOR DEVELOPERS -->
-    <section class="lightblue-color-bg designed-for-dev">
-      <div
-        class="main-container txt-center primary-color py-40 lightblue-color-bg"
+      </section>
+      <!-- sezione deploy and scale -->
+      <section
+        class="deploy-and-scale main-container txt-center primary-color py-80"
       >
-        <h2>Designed for developers</h2>
+        <h2>Deploy and scale seamlessly</h2>
         <p class="mt-20 mb-40">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. A natus
           reprehenderit voluptatibus. Provident consectetur culpa natus tenetur
           obcaecati quidem repellat labore perspiciatis!
         </p>
-        <div class="img-wrapper">
-          <img class="w50 vertical-middle" src="img/slide.jpg" alt="slide" />
-        </div>
-        <p class="font-s09rem mt-15 mb-40">
-          create compute servers in 55 seconds or less
-        </p>
-        <span class="in-line-b h12px w12px border-rad50 brand-color-bg"></span>
-        <span class="in-line-b h12px w12px border-rad50"></span>
-        <span class="in-line-b h12px w12px border-rad50"></span>
-        <span class="in-line-b h12px w12px border-rad50"></span>
-      </div>
-    </section>
-    <!-- SEZIONE THE FUTURE YOUR BUSINESS NEEDS -->
-    <section class="features-business-needs">
-      <div class="main-container primary-color py-40">
-        <h2 class="txt-center mb-20">The features your business needs</h2>
-        <div class="row clear-fix">
-          <div class="col-md-4">
-            <!-- box 1 -->
-            <img src="img/pred-pricing.svg" alt="pred-pricing" class="mt-20" />
-            <h4 class="primary-color pt-10 pb-10 pr-25">Pridictable pricing</h4>
-            <p class="dark-grey-txt pr-23 font-s085rem">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Temporibus ratione ipsam consectetur vel.
-            </p>
-            <p class="brand-color pr-23 font-s085rem pt-10 hover-primary-color">
-              Pricing >
-            </p>
-          </div>
-          <div class="col-md-4">
-            <!-- box 2 -->
-            <img src="img/world-class.svg" alt="world-class" class="mt-20" />
-            <h4 class="primary-color pt-10 pb-10 pr-25">World-class service</h4>
-            <p class="dark-grey-txt pr-23 font-s085rem">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Temporibus ratione ipsam consectetur vel.
-            </p>
-            <p class="brand-color pr-23 font-s085rem pt-10 hover-primary-color">
-              Support >
-            </p>
-          </div>
-          <div class="col-md-4">
-            <!-- box 3 -->
-            <img
-              src="img/reliable-platform.svg"
-              alt="Reliable platform"
-              class="mt-20"
-            />
-            <h4 class="primary-color pt-10 pb-10 pr-25">Reliable platform</h4>
-            <p class="dark-grey-txt pr-23 font-s085rem">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Temporibus ratione ipsam consectetur vel.
-            </p>
-            <p class="brand-color pr-23 font-s085rem pt-10 hover-primary-color">
-              Security >
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- SERVICE COSTUMERS AROUND THE WORLD 12 REGIONS -->
-    <section class="service-arund-world py-60">
-      <div class="main-container primary-color fff-color">
-        <h2 class="txt-center mb-30">
-          Service your costumers around the world from 12 regions
-        </h2>
-        <!-- tabella -->
-        <div class="table-box">
-          <!-- lato sx su desktop -->
-          <div class="side-sx">
-            <!-- linea 1 -->
-            <div class="line line-h40px font-s08rem">
-              <span class="ml-8 w13 in-line-b">AMS2</span>
-              <span class="w55 in-line-b grey-txt">Amsterdam,Netherlands</span>
-              <span class="w25 in-line-b txt-right">Test speed ></span>
-            </div>
-            <!-- linea 2 -->
-            <div class="line line-h40px font-s08rem">
-              <span class="ml-8 w13 in-line-b">AMS2</span>
-              <span class="w55 in-line-b grey-txt">Amsterdam,Netherlands</span>
-              <span class="w25 in-line-b txt-right">Test speed ></span>
-            </div>
-            <!-- linea 3 -->
-            <div class="line line-h40px font-s08rem">
-              <span class="ml-8 w13 in-line-b">AMS2</span>
-              <span class="w55 in-line-b grey-txt">Amsterdam,Netherlands</span>
-              <span class="w25 in-line-b txt-right">Test speed ></span>
-            </div>
-            <!-- linea 4 -->
-            <div class="line line-h40px font-s08rem">
-              <span class="ml-8 w13 in-line-b">AMS2</span>
-              <span class="w55 in-line-b grey-txt">Amsterdam,Netherlands</span>
-              <span class="w25 in-line-b txt-right">Test speed ></span>
-            </div>
-            <!-- linea 5 -->
-            <div class="line line-h40px font-s08rem">
-              <span class="ml-8 w13 in-line-b">AMS2</span>
-              <span class="w55 in-line-b grey-txt">Amsterdam,Netherlands</span>
-              <span class="w25 in-line-b txt-right">Test speed ></span>
-            </div>
-            <!-- linea 6 -->
-            <div class="line line-h40px font-s08rem colum-end">
-              <span class="ml-8 w13 in-line-b">AMS2</span>
-              <span class="w55 in-line-b grey-txt">Amsterdam,Netherlands</span>
-              <span class="w25 in-line-b txt-right">Test speed ></span>
-            </div>
-          </div>
-          <!-- lato dx sul desktop -->
-          <div class="side-dx">
-            <!-- linea 1 -->
-            <div class="line line-h40px font-s08rem">
-              <span class="ml-8 w13 in-line-b">AMS2</span>
-              <span class="w55 in-line-b grey-txt">Amsterdam,Netherlands</span>
-              <span class="w25 in-line-b txt-right">Test speed ></span>
-            </div>
-            <!-- linea 2 -->
-            <div class="line line-h40px font-s08rem">
-              <span class="ml-8 w13 in-line-b">AMS2</span>
-              <span class="w55 in-line-b grey-txt">Amsterdam,Netherlands</span>
-              <span class="w25 in-line-b txt-right">Test speed ></span>
-            </div>
-            <!-- linea 3 -->
-            <div class="line line-h40px font-s08rem">
-              <span class="ml-8 w13 in-line-b">AMS2</span>
-              <span class="w55 in-line-b grey-txt">Amsterdam,Netherlands</span>
-              <span class="w25 in-line-b txt-right">Test speed ></span>
-            </div>
-            <!-- linea 4 -->
-            <div class="line line-h40px font-s08rem">
-              <span class="ml-8 w13 in-line-b">AMS2</span>
-              <span class="w55 in-line-b grey-txt">Amsterdam,Netherlands</span>
-              <span class="w25 in-line-b txt-right">Test speed ></span>
-            </div>
-            <!-- linea 5 -->
-            <div class="line line-h40px font-s08rem">
-              <span class="ml-8 w13 in-line-b">AMS2</span>
-              <span class="w55 in-line-b grey-txt">Amsterdam,Netherlands</span>
-              <span class="w25 in-line-b txt-right">Test speed ></span>
-            </div>
-            <!-- linea 6 -->
-            <div class="line line-h40px font-s08rem colum-end last">
-              <span class="ml-8 w13 in-line-b">AMS2</span>
-              <span class="w55 in-line-b grey-txt">Amsterdam,Netherlands</span>
-              <span class="w25 in-line-b txt-right">Test speed ></span>
+        <div class="clear-fix">
+          <div class="col-12 col-md-10 offset-md-1">
+            <div class="clear-fix">
+              <div class="col-12 col-md-4 mb-20">
+                <!-- bordino grigio elenco verticale  -->
+                <ul
+                  class="no-list-style border-visibile-left txt-left h100 font-s1e1rem"
+                >
+                  <li class="pt-25 dark-grey-txt pl-7">Deploy</li>
+                  <li class="pt-25 dark-grey-txt pl-7">Manage</li>
+                  <li class="pt-25 dark-grey-txt pl-7">Secure</li>
+                  <li class="pt-25 dark-grey-txt pl-7">Scale</li>
+                  <li class="pt-25 pb-25 dark-grey-txt pl-7">Monitor</li>
+                </ul>
+              </div>
+              <!-- 4box img + titolo + paragrafo  -->
+              <div class="text-boxes col-12 col-md-8 clear-fix txt-left float">
+                <!-- box 1 -->
+                <div class="col-md-6 h140px">
+                  <img src="img/cluster-deploy.svg" alt="cluster" class="" />
+                  <h4 class="primary-color pt-10 pb-10 pr-25">
+                    Cluster deployments
+                  </h4>
+                  <p class="dark-grey-txt pr-23 font-s085rem">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Temporibus ratione ipsam consectetur vel.
+                  </p>
+                </div>
+                <!-- box 2 -->
+                <div class="col-md-6 h140px">
+                  <img src="img/optimized-compute.svg" alt="optimized" />
+                  <h4 class="primary-color py-10">Optimize compute type</h4>
+                  <p class="dark-grey-txt pr-23 font-s085rem">
+                    Lorem ipsum, dolor sit amet. Temporibus ratione ipsam
+                    consectetur vel.
+                  </p>
+                </div>
+                <!-- box 3 -->
+                <div class="col-md-6 h150px">
+                  <img src="img/one-click.svg" alt="one-click" />
+                  <h4 class="primary-color py-10">One-clip apps</h4>
+                  <p class="dark-grey-txt pr-23 font-s085rem">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Provident esse temporibus nesciunt vitae nostrum doloremque
+                    at.
+                  </p>
+                </div>
+                <!-- box 4 -->
+                <div class="col-md-6 h140px">
+                  <img src="img/global.svg" alt="global" />
+                  <h4 class="primary-color py-10">Global availability</h4>
+                  <p class="dark-grey-txt pr-23 font-s085rem">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- SEZIONE DEVELOPMENT TEAMS 
+      </section>
+      <!-- SEZIONE DESIGNED FOR DEVELOPERS -->
+      <section class="lightblue-color-bg designed-for-dev">
+        <div
+          class="main-container txt-center primary-color py-40 lightblue-color-bg"
+        >
+          <h2>Designed for developers</h2>
+          <p class="mt-20 mb-40">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. A natus
+            reprehenderit voluptatibus. Provident consectetur culpa natus
+            tenetur obcaecati quidem repellat labore perspiciatis!
+          </p>
+          <div class="img-wrapper">
+            <img class="w50 vertical-middle" src="img/slide.jpg" alt="slide" />
+          </div>
+          <p class="font-s09rem mt-15 mb-40">
+            create compute servers in 55 seconds or less
+          </p>
+          <span
+            class="in-line-b h12px w12px border-rad50 brand-color-bg"
+          ></span>
+          <span class="in-line-b h12px w12px border-rad50"></span>
+          <span class="in-line-b h12px w12px border-rad50"></span>
+          <span class="in-line-b h12px w12px border-rad50"></span>
+        </div>
+      </section>
+      <!-- SEZIONE THE FUTURE YOUR BUSINESS NEEDS -->
+      <section class="features-business-needs">
+        <div class="main-container primary-color py-40">
+          <h2 class="txt-center mb-20">The features your business needs</h2>
+          <div class="row clear-fix">
+            <div class="col-md-4">
+              <!-- box 1 -->
+              <img
+                src="img/pred-pricing.svg"
+                alt="pred-pricing"
+                class="mt-20"
+              />
+              <h4 class="primary-color pt-10 pb-10 pr-25">
+                Pridictable pricing
+              </h4>
+              <p class="dark-grey-txt pr-23 font-s085rem">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Temporibus ratione ipsam consectetur vel.
+              </p>
+              <p
+                class="brand-color pr-23 font-s085rem pt-10 hover-primary-color"
+              >
+                Pricing >
+              </p>
+            </div>
+            <div class="col-md-4">
+              <!-- box 2 -->
+              <img src="img/world-class.svg" alt="world-class" class="mt-20" />
+              <h4 class="primary-color pt-10 pb-10 pr-25">
+                World-class service
+              </h4>
+              <p class="dark-grey-txt pr-23 font-s085rem">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Temporibus ratione ipsam consectetur vel.
+              </p>
+              <p
+                class="brand-color pr-23 font-s085rem pt-10 hover-primary-color"
+              >
+                Support >
+              </p>
+            </div>
+            <div class="col-md-4">
+              <!-- box 3 -->
+              <img
+                src="img/reliable-platform.svg"
+                alt="Reliable platform"
+                class="mt-20"
+              />
+              <h4 class="primary-color pt-10 pb-10 pr-25">Reliable platform</h4>
+              <p class="dark-grey-txt pr-23 font-s085rem">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Temporibus ratione ipsam consectetur vel.
+              </p>
+              <p
+                class="brand-color pr-23 font-s085rem pt-10 hover-primary-color"
+              >
+                Security >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SERVICE COSTUMERS AROUND THE WORLD 12 REGIONS -->
+      <section class="service-arund-world py-60">
+        <div class="main-container primary-color fff-color">
+          <h2 class="txt-center mb-30">
+            Service your costumers around the world from 12 regions
+          </h2>
+          <!-- tabella -->
+          <div class="table-box">
+            <!-- lato sx su desktop -->
+            <div class="side-sx">
+              <!-- linea 1 -->
+              <div class="line line-h40px font-s08rem">
+                <span class="ml-8 w13 in-line-b">AMS2</span>
+                <span class="w55 in-line-b grey-txt"
+                  >Amsterdam,Netherlands</span
+                >
+                <span class="w25 in-line-b txt-right">Test speed ></span>
+              </div>
+              <!-- linea 2 -->
+              <div class="line line-h40px font-s08rem">
+                <span class="ml-8 w13 in-line-b">AMS2</span>
+                <span class="w55 in-line-b grey-txt"
+                  >Amsterdam,Netherlands</span
+                >
+                <span class="w25 in-line-b txt-right">Test speed ></span>
+              </div>
+              <!-- linea 3 -->
+              <div class="line line-h40px font-s08rem">
+                <span class="ml-8 w13 in-line-b">AMS2</span>
+                <span class="w55 in-line-b grey-txt"
+                  >Amsterdam,Netherlands</span
+                >
+                <span class="w25 in-line-b txt-right">Test speed ></span>
+              </div>
+              <!-- linea 4 -->
+              <div class="line line-h40px font-s08rem">
+                <span class="ml-8 w13 in-line-b">AMS2</span>
+                <span class="w55 in-line-b grey-txt"
+                  >Amsterdam,Netherlands</span
+                >
+                <span class="w25 in-line-b txt-right">Test speed ></span>
+              </div>
+              <!-- linea 5 -->
+              <div class="line line-h40px font-s08rem">
+                <span class="ml-8 w13 in-line-b">AMS2</span>
+                <span class="w55 in-line-b grey-txt"
+                  >Amsterdam,Netherlands</span
+                >
+                <span class="w25 in-line-b txt-right">Test speed ></span>
+              </div>
+              <!-- linea 6 -->
+              <div class="line line-h40px font-s08rem colum-end">
+                <span class="ml-8 w13 in-line-b">AMS2</span>
+                <span class="w55 in-line-b grey-txt"
+                  >Amsterdam,Netherlands</span
+                >
+                <span class="w25 in-line-b txt-right">Test speed ></span>
+              </div>
+            </div>
+            <!-- lato dx sul desktop -->
+            <div class="side-dx">
+              <!-- linea 1 -->
+              <div class="line line-h40px font-s08rem">
+                <span class="ml-8 w13 in-line-b">AMS2</span>
+                <span class="w55 in-line-b grey-txt"
+                  >Amsterdam,Netherlands</span
+                >
+                <span class="w25 in-line-b txt-right">Test speed ></span>
+              </div>
+              <!-- linea 2 -->
+              <div class="line line-h40px font-s08rem">
+                <span class="ml-8 w13 in-line-b">AMS2</span>
+                <span class="w55 in-line-b grey-txt"
+                  >Amsterdam,Netherlands</span
+                >
+                <span class="w25 in-line-b txt-right">Test speed ></span>
+              </div>
+              <!-- linea 3 -->
+              <div class="line line-h40px font-s08rem">
+                <span class="ml-8 w13 in-line-b">AMS2</span>
+                <span class="w55 in-line-b grey-txt"
+                  >Amsterdam,Netherlands</span
+                >
+                <span class="w25 in-line-b txt-right">Test speed ></span>
+              </div>
+              <!-- linea 4 -->
+              <div class="line line-h40px font-s08rem">
+                <span class="ml-8 w13 in-line-b">AMS2</span>
+                <span class="w55 in-line-b grey-txt"
+                  >Amsterdam,Netherlands</span
+                >
+                <span class="w25 in-line-b txt-right">Test speed ></span>
+              </div>
+              <!-- linea 5 -->
+              <div class="line line-h40px font-s08rem">
+                <span class="ml-8 w13 in-line-b">AMS2</span>
+                <span class="w55 in-line-b grey-txt"
+                  >Amsterdam,Netherlands</span
+                >
+                <span class="w25 in-line-b txt-right">Test speed ></span>
+              </div>
+              <!-- linea 6 -->
+              <div class="line line-h40px font-s08rem colum-end last">
+                <span class="ml-8 w13 in-line-b">AMS2</span>
+                <span class="w55 in-line-b grey-txt"
+                  >Amsterdam,Netherlands</span
+                >
+                <span class="w25 in-line-b txt-right">Test speed ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SEZIONE DEVELOPMENT TEAMS 
         LOVES DIGITAL OCEAN -->
-    <section class="lightblue-color-bg designed-for-dev">
-      <div
-        class="main-container txt-center primary-color py-40 lightblue-color-bg"
-      >
-        <h2>Development Teams loves digital ocean</h2>
-        <div class="slider-wrapper txt-center mt-45 mb-25">
-          <div class="slider-second m-auto fff-color-bg pos-rel">
-            <img
-              src="img/rockerbox-logo.png"
-              alt="rockerbox"
-              class="mt-45 vertical-align-sub"
-            />
-            <p class="my-15">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
-              soluta quibusdam dolor tenetur porro consectetur veniam.
-              Voluptatem id culpa quaerat.
+      <section class="lightblue-color-bg designed-for-dev">
+        <div
+          class="main-container txt-center primary-color py-40 lightblue-color-bg"
+        >
+          <h2>Development Teams loves digital ocean</h2>
+          <div class="slider-wrapper txt-center mt-45 mb-25">
+            <div class="slider-second m-auto fff-color-bg pos-rel">
+              <img
+                src="img/rockerbox-logo.png"
+                alt="rockerbox"
+                class="mt-45 vertical-align-sub"
+              />
+              <p class="my-15">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti, soluta quibusdam dolor tenetur porro consectetur
+                veniam. Voluptatem id culpa quaerat.
+              </p>
+              <p><strong> Rick o'Toole</strong></p>
+              <p class="mt-7">Co-founder and CTO</p>
+              <p class="mt-3 brand-color hover-primary-color">Read story ></p>
+              <i
+                class="fas fa-angle-right centerY-of-abs font-s3e3rem hover-brand-color"
+              ></i>
+              <i
+                class="fas fa-angle-left centerY-of-abs font-s3e3rem dark-grey-txt hover-brand-color"
+              ></i>
+            </div>
+          </div>
+          <span
+            class="in-line-b h12px w12px border-rad50 brand-color-bg"
+          ></span>
+          <span class="in-line-b h12px w12px border-rad50"></span>
+          <span class="in-line-b h12px w12px border-rad50"></span>
+          <span class="in-line-b h12px w12px border-rad50"></span>
+        </div>
+      </section>
+      <!-- GET STARTED NOW -->
+      <section class="txt-center py-50 get-strted fff-color pb-30">
+        <h2 class="font-w700 mb-20 font-s2rem">Get started now.</h2>
+        <a
+          href="#"
+          class="no-decorate brand-color fff-color-bg border-rad5 in-line-b pt-10 pb-10 pl-14 pr-14 hover-primary-color"
+          >Create your account</a
+        >
+      </section>
+      <!-- FOOTER -->
+      <footer class="py-50 fff-color primary-color-bg">
+        <div class="main-container grey-txt clear-fix">
+          <div class="col-lg-4 col-md-12 txt-left pr-15">
+            <img src="img/logo-small.svg" alt="logo" class="w38px" />
+            <p class="dark-grey-txt font-s09rem my-5">
+              &copy; 2018 Digital Ocean,LCC all rights reserved.
             </p>
-            <p><strong> Rick o'Toole</strong></p>
-            <p class="mt-7">Co-founder and CTO</p>
-            <p class="mt-3 brand-color hover-primary-color">Read story ></p>
-            <i
-              class="fas fa-angle-right centerY-of-abs font-s3e3rem hover-brand-color"
-            ></i>
-            <i
-              class="fas fa-angle-left centerY-of-abs font-s3e3rem dark-grey-txt hover-brand-color"
-            ></i>
+            <p class="no-list-style grey-txt font-s09rem mb-12">
+              Proudly made in NY
+            </p>
+            <!-- icone dei social -->
+            <ul class="mb-30">
+              <li class="in-line-b">
+                <a href="#" class="grey-txt">
+                  <i class="fab fa-twitter font-s1e5rem hover-brand-color"></i
+                ></a>
+              </li>
+              <li class="in-line-b">
+                <a href="#" class="grey-txt">
+                  <i
+                    class="fab fa-facebook-square font-s1e5rem ml-8 hover-brand-color"
+                  ></i
+                ></a>
+              </li>
+              <li class="in-line-b">
+                <a href="#" class="grey-txt">
+                  <i
+                    class="fab fa-instagram font-s1e5rem ml-8 hover-brand-color"
+                  ></i
+                ></a>
+              </li>
+              <li class="in-line-b">
+                <a href="#" class="grey-txt">
+                  <i
+                    class="fab fa-youtube font-s1e5rem ml-8 hover-brand-color"
+                  ></i
+                ></a>
+              </li>
+              <li class="in-line-b">
+                <a href="#" class="grey-txt">
+                  <i
+                    class="fab fa-linkedin font-s1e5rem ml-8 hover-brand-color"
+                  ></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 col-12">
+            <h4 class="fff-color">Company</h4>
+            <!-- prima colonna di link in desktop -->
+            <ul class="mb-30 no-list-style">
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >About</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Leadership</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Link</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Blog</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Careers</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Partner Network</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Referral Program</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Event</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Press</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Legal Security</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 col-12">
+            <h4 class="fff-color">Products</h4>
+            <!-- seconda colonna di link vista desktop -->
+            <ul class="mb-30 no-list-style">
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >About</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Leadership</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Link</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Blog</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Careers</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Partner Network</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Referral Program</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Event</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Press</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Legal Security</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Legal Security</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 col-12">
+            <h4 class="fff-color">Community</h4>
+            <!-- terza colonna di link vista desktop -->
+            <ul class="mb-30 no-list-style">
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >About</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Leadership</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Link</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Blog</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Careers</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Partner Network</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Referral Program</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Event</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Press</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Legal Security</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2">
+            <h4 class="fff-color">Support</h4>
+            <!-- quarta colonna di link vista desktop -->
+            <ul class="no-list-style">
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >About</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Leadership</a
+                >
+              </li>
+              <li class="mt-8">
+                <a
+                  href="#"
+                  class="no-decorate grey-txt font-s09rem hover-brand-color"
+                  >Link</a
+                >
+              </li>
+            </ul>
           </div>
         </div>
-        <span class="in-line-b h12px w12px border-rad50 brand-color-bg"></span>
-        <span class="in-line-b h12px w12px border-rad50"></span>
-        <span class="in-line-b h12px w12px border-rad50"></span>
-        <span class="in-line-b h12px w12px border-rad50"></span>
-      </div>
-    </section>
-    <!-- GET STARTED NOW -->
-    <section class="txt-center py-50 get-strted fff-color pb-30">
-      <h2 class="font-w700 mb-20 font-s2rem">Get started now.</h2>
-      <a
-        href="#"
-        class="no-decorate brand-color fff-color-bg border-rad5 in-line-b pt-10 pb-10 pl-14 pr-14 hover-primary-color"
-        >Create your account</a
-      >
-    </section>
-    <!-- FOOTER -->
-    <footer class="py-50 fff-color primary-color-bg">
-      <div class="main-container grey-txt clear-fix">
-        <div class="col-lg-4 col-md-12 txt-left pr-15">
-          <img src="img/logo-small.svg" alt="logo" class="w38px" />
-          <p class="dark-grey-txt font-s09rem my-5">
-            &copy; 2018 Digital Ocean,LCC all rights reserved.
-          </p>
-          <p class="no-list-style grey-txt font-s09rem mb-12">
-            Proudly made in NY
-          </p>
-          <!-- icone dei social -->
-          <ul class="mb-30">
-            <li class="in-line-b">
-              <a href="#" class="grey-txt">
-                <i class="fab fa-twitter font-s1e5rem hover-brand-color"></i
-              ></a>
-            </li>
-            <li class="in-line-b">
-              <a href="#" class="grey-txt">
-                <i
-                  class="fab fa-facebook-square font-s1e5rem ml-8 hover-brand-color"
-                ></i
-              ></a>
-            </li>
-            <li class="in-line-b">
-              <a href="#" class="grey-txt">
-                <i
-                  class="fab fa-instagram font-s1e5rem ml-8 hover-brand-color"
-                ></i
-              ></a>
-            </li>
-            <li class="in-line-b">
-              <a href="#" class="grey-txt">
-                <i
-                  class="fab fa-youtube font-s1e5rem ml-8 hover-brand-color"
-                ></i
-              ></a>
-            </li>
-            <li class="in-line-b">
-              <a href="#" class="grey-txt">
-                <i
-                  class="fab fa-linkedin font-s1e5rem ml-8 hover-brand-color"
-                ></i
-              ></a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-lg-2 col-md-6 col-12">
-          <h4 class="fff-color">Company</h4>
-          <!-- prima colonna di link in desktop -->
-          <ul class="mb-30 no-list-style">
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >About</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Leadership</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Link</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Blog</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Careers</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Partner Network</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Referral Program</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Event</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Press</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Legal Security</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="col-lg-2 col-md-6 col-12">
-          <h4 class="fff-color">Products</h4>
-          <!-- seconda colonna di link vista desktop -->
-          <ul class="mb-30 no-list-style">
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >About</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Leadership</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Link</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Blog</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Careers</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Partner Network</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Referral Program</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Event</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Press</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Legal Security</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Legal Security</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="col-lg-2 col-md-6 col-12">
-          <h4 class="fff-color">Community</h4>
-          <!-- terza colonna di link vista desktop -->
-          <ul class="mb-30 no-list-style">
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >About</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Leadership</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Link</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Blog</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Careers</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Partner Network</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Referral Program</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Event</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Press</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Legal Security</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="col-lg-2">
-          <h4 class="fff-color">Support</h4>
-          <!-- quarta colonna di link vista desktop -->
-          <ul class="no-list-style">
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >About</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Leadership</a
-              >
-            </li>
-            <li class="mt-8">
-              <a
-                href="#"
-                class="no-decorate grey-txt font-s09rem hover-brand-color"
-                >Link</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-    <!--  SQUALETTO CHAT -->
-    <!-- cdn Vue -->
-    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
-    <div id="app">
+      </footer>
+      <!--  SQUALETTO CHAT -->
       <!-- wrapper background -->
       <div class="brand-color-bg shark fixed border-rad5">
         <!-- pallino noditifiche -->
@@ -853,6 +954,7 @@
         data: {
           display: false,
           nuoveNotifiche: 2,
+          displayMenuMob: false,
         },
         methods: {
           azzeraNotifiche: function () {

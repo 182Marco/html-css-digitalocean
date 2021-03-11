@@ -35,6 +35,18 @@ nav > a {
 .hamburger-line {
   transition: all 0.5s;
 }
+/* menu mobile */
+.menu-mobile {
+  left: 0;
+  top: 100%;
+  height: calc(100vh - 60px);
+}
+.menu-mobile ul {
+  height: calc(100vh - 60px);
+}
+.menu-mobile ul {
+  flex-wrap: nowrap;
+}
 
 .hamburger:hover .hamburger-line {
   background-color: #031c4e;
