@@ -25,7 +25,6 @@
   color: red;
 }
 /* hover */
-
 .hover-brand-color:hover {
   color: #3a8aff;
 }
@@ -42,9 +41,7 @@
 .hover-red-txt:hover {
   color: red;
 }
-
 /* UTILITIES colori dei background */
-
 .brand-color-bg {
   background-color: #3a8aff;
 }
@@ -54,24 +51,19 @@
 .secondary-color-bg {
   background-color: #579aff;
 }
-
 .fff-color-bg {
   background-color: #fff;
 }
 .black-color-bg {
   background-color: #000;
 }
-
 .lightblue-color-bg {
   background-color: #f3f5f9;
 }
-
 .red-bg {
   background-color: red;
 }
-
 /* hover */
-
 .hover-brand-color-bg:hover {
   background-color: #3a8aff;
 }
@@ -95,7 +87,6 @@
   box-sizing: border-box;
 }
 /* flex */
-
 .flex-x {
   display: flex;
 }
@@ -5107,9 +5098,6 @@ fastidiosi nei tag */
 }
 /* padddingLEFT */
 
-.pl-0 {
-  padding-left: 0;
-}
 .pl-1 {
   padding-left: 1px;
 }
@@ -5201,13 +5189,7 @@ fastidiosi nei tag */
   padding-left: 30px;
 }
 .pl-31 {
-  padding-left: 31px;
-}
-.pl-32 {
   padding-left: 32px;
-}
-.pl-33 {
-  padding-left: 33px;
 }
 .pl-33 {
   padding-left: 33px;
@@ -5263,32 +5245,152 @@ fastidiosi nei tag */
 .pl-50 {
   padding-left: 50px;
 }
+.pl-51 {
+  padding-left: 51px;
+}
+.pl-52 {
+  padding-left: 52px;
+}
+.pl-53 {
+  padding-left: 53px;
+}
+.pl-54 {
+  padding-left: 54px;
+}
 .pl-55 {
   padding-left: 55px;
+}
+.pl-56 {
+  padding-left: 56px;
+}
+.pl-57 {
+  padding-left: 57px;
+}
+.pl-58 {
+  padding-left: 58px;
+}
+.pl-59 {
+  padding-left: 59px;
 }
 .pl-60 {
   padding-left: 60px;
 }
-.pl-65 {
+.pl-61 {
+  padding-left: 61px;
+}
+.pl-62 {
+  padding-left: 62px;
+}
+.pl-63 {
+  padding-left: 63px;
+}
+.pl-64 {
   padding-left: 65px;
+}
+.pl-66 {
+  padding-left: 66px;
+}
+.pl-67 {
+  padding-left: 67px;
+}
+.pl-68 {
+  padding-left: 68px;
+}
+.pl-69 {
+  padding-left: 69px;
 }
 .pl-70 {
   padding-left: 70px;
 }
+.pl-71 {
+  padding-left: 71px;
+}
+.pl-72 {
+  padding-left: 72px;
+}
+.pl-73 {
+  padding-left: 73px;
+}
+.pl-74 {
+  padding-left: 74px;
+}
 .pl-75 {
   padding-left: 75px;
+}
+.pl-76 {
+  padding-left: 76px;
+}
+.pl-77 {
+  padding-left: 77px;
+}
+.pl-78 {
+  padding-left: 78px;
+}
+.pl-79 {
+  padding-left: 79px;
 }
 .pl-80 {
   padding-left: 80px;
 }
+.pl-81 {
+  padding-left: 81px;
+}
+.pl-82 {
+  padding-left: 82px;
+}
+.pl-83 {
+  padding-left: 83px;
+}
+.pl-84 {
+  padding-left: 84px;
+}
 .pl-85 {
   padding-left: 85px;
+}
+.pl-86 {
+  padding-left: 86px;
+}
+.pl-87 {
+  padding-left: 87px;
+}
+.pl-88 {
+  padding-left: 88px;
+}
+.pl-89 {
+  padding-left: 89px;
 }
 .pl-90 {
   padding-left: 90px;
 }
+.pl-90 {
+  padding-left: 90px;
+}
+.pl-91 {
+  padding-left: 91px;
+}
+.pl-92 {
+  padding-left: 92px;
+}
+.pl-93 {
+  padding-left: 93px;
+}
+.pl-94 {
+  padding-left: 94px;
+}
 .pl-95 {
   padding-left: 95px;
+}
+.pl-96 {
+  padding-left: 96px;
+}
+.pl-97 {
+  padding-left: 97px;
+}
+.pl-98 {
+  padding-left: 98px;
+}
+.pl-99 {
+  padding-left: 99px;
 }
 .pl-100 {
   padding-left: 100px;
@@ -5364,9 +5466,6 @@ fastidiosi nei tag */
 }
 /* padding BOTTOM */
 
-.pb-0 {
-  padding-bottom: 0;
-}
 .pb-1 {
   padding-bottom: 1px;
 }
@@ -5458,13 +5557,7 @@ fastidiosi nei tag */
   padding-bottom: 30px;
 }
 .pb-31 {
-  padding-bottom: 31px;
-}
-.pb-32 {
   padding-bottom: 32px;
-}
-.pb-33 {
-  padding-bottom: 33px;
 }
 .pb-33 {
   padding-bottom: 33px;
@@ -5520,32 +5613,152 @@ fastidiosi nei tag */
 .pb-50 {
   padding-bottom: 50px;
 }
+.pb-51 {
+  padding-bottom: 51px;
+}
+.pb-52 {
+  padding-bottom: 52px;
+}
+.pb-53 {
+  padding-bottom: 53px;
+}
+.pb-54 {
+  padding-bottom: 54px;
+}
 .pb-55 {
   padding-bottom: 55px;
+}
+.pb-56 {
+  padding-bottom: 56px;
+}
+.pb-57 {
+  padding-bottom: 57px;
+}
+.pb-58 {
+  padding-bottom: 58px;
+}
+.pb-59 {
+  padding-bottom: 59px;
 }
 .pb-60 {
   padding-bottom: 60px;
 }
-.pb-65 {
+.pb-61 {
+  padding-bottom: 61px;
+}
+.pb-62 {
+  padding-bottom: 62px;
+}
+.pb-63 {
+  padding-bottom: 63px;
+}
+.pb-64 {
   padding-bottom: 65px;
+}
+.pb-66 {
+  padding-bottom: 66px;
+}
+.pb-67 {
+  padding-bottom: 67px;
+}
+.pb-68 {
+  padding-bottom: 68px;
+}
+.pb-69 {
+  padding-bottom: 69px;
 }
 .pb-70 {
   padding-bottom: 70px;
 }
+.pb-71 {
+  padding-bottom: 71px;
+}
+.pb-72 {
+  padding-bottom: 72px;
+}
+.pb-73 {
+  padding-bottom: 73px;
+}
+.pb-74 {
+  padding-bottom: 74px;
+}
 .pb-75 {
   padding-bottom: 75px;
+}
+.pb-76 {
+  padding-bottom: 76px;
+}
+.pb-77 {
+  padding-bottom: 77px;
+}
+.pb-78 {
+  padding-bottom: 78px;
+}
+.pb-79 {
+  padding-bottom: 79px;
 }
 .pb-80 {
   padding-bottom: 80px;
 }
+.pb-81 {
+  padding-bottom: 81px;
+}
+.pb-82 {
+  padding-bottom: 82px;
+}
+.pb-83 {
+  padding-bottom: 83px;
+}
+.pb-84 {
+  padding-bottom: 84px;
+}
 .pb-85 {
   padding-bottom: 85px;
+}
+.pb-86 {
+  padding-bottom: 86px;
+}
+.pb-87 {
+  padding-bottom: 87px;
+}
+.pb-88 {
+  padding-bottom: 88px;
+}
+.pb-89 {
+  padding-bottom: 89px;
 }
 .pb-90 {
   padding-bottom: 90px;
 }
+.pb-90 {
+  padding-bottom: 90px;
+}
+.pb-91 {
+  padding-bottom: 91px;
+}
+.pb-92 {
+  padding-bottom: 92px;
+}
+.pb-93 {
+  padding-bottom: 93px;
+}
+.pb-94 {
+  padding-bottom: 94px;
+}
 .pb-95 {
   padding-bottom: 95px;
+}
+.pb-96 {
+  padding-bottom: 96px;
+}
+.pb-97 {
+  padding-bottom: 97px;
+}
+.pb-98 {
+  padding-bottom: 98px;
+}
+.pb-99 {
+  padding-bottom: 99px;
 }
 .pb-100 {
   padding-bottom: 100px;
@@ -5622,9 +5835,6 @@ fastidiosi nei tag */
 
 /* paddingRIGHT */
 
-.pr-0 {
-  padding-right: 0;
-}
 .pr-1 {
   padding-right: 1px;
 }
@@ -5716,13 +5926,7 @@ fastidiosi nei tag */
   padding-right: 30px;
 }
 .pr-31 {
-  padding-right: 31px;
-}
-.pr-32 {
   padding-right: 32px;
-}
-.pr-33 {
-  padding-right: 33px;
 }
 .pr-33 {
   padding-right: 33px;
@@ -5778,32 +5982,152 @@ fastidiosi nei tag */
 .pr-50 {
   padding-right: 50px;
 }
+.pr-51 {
+  padding-right: 51px;
+}
+.pr-52 {
+  padding-right: 52px;
+}
+.pr-53 {
+  padding-right: 53px;
+}
+.pr-54 {
+  padding-right: 54px;
+}
 .pr-55 {
   padding-right: 55px;
+}
+.pr-56 {
+  padding-right: 56px;
+}
+.pr-57 {
+  padding-right: 57px;
+}
+.pr-58 {
+  padding-right: 58px;
+}
+.pr-59 {
+  padding-right: 59px;
 }
 .pr-60 {
   padding-right: 60px;
 }
-.pr-65 {
+.pr-61 {
+  padding-right: 61px;
+}
+.pr-62 {
+  padding-right: 62px;
+}
+.pr-63 {
+  padding-right: 63px;
+}
+.pr-64 {
   padding-right: 65px;
+}
+.pr-66 {
+  padding-right: 66px;
+}
+.pr-67 {
+  padding-right: 67px;
+}
+.pr-68 {
+  padding-right: 68px;
+}
+.pr-69 {
+  padding-right: 69px;
 }
 .pr-70 {
   padding-right: 70px;
 }
+.pr-71 {
+  padding-right: 71px;
+}
+.pr-72 {
+  padding-right: 72px;
+}
+.pr-73 {
+  padding-right: 73px;
+}
+.pr-74 {
+  padding-right: 74px;
+}
 .pr-75 {
   padding-right: 75px;
+}
+.pr-76 {
+  padding-right: 76px;
+}
+.pr-77 {
+  padding-right: 77px;
+}
+.pr-78 {
+  padding-right: 78px;
+}
+.pr-79 {
+  padding-right: 79px;
 }
 .pr-80 {
   padding-right: 80px;
 }
+.pr-81 {
+  padding-right: 81px;
+}
+.pr-82 {
+  padding-right: 82px;
+}
+.pr-83 {
+  padding-right: 83px;
+}
+.pr-84 {
+  padding-right: 84px;
+}
 .pr-85 {
   padding-right: 85px;
+}
+.pr-86 {
+  padding-right: 86px;
+}
+.pr-87 {
+  padding-right: 87px;
+}
+.pr-88 {
+  padding-right: 88px;
+}
+.pr-89 {
+  padding-right: 89px;
 }
 .pr-90 {
   padding-right: 90px;
 }
+.pr-90 {
+  padding-right: 90px;
+}
+.pr-91 {
+  padding-right: 91px;
+}
+.pr-92 {
+  padding-right: 92px;
+}
+.pr-93 {
+  padding-right: 93px;
+}
+.pr-94 {
+  padding-right: 94px;
+}
 .pr-95 {
   padding-right: 95px;
+}
+.pr-96 {
+  padding-right: 96px;
+}
+.pr-97 {
+  padding-right: 97px;
+}
+.pr-98 {
+  padding-right: 98px;
+}
+.pr-99 {
+  padding-right: 99px;
 }
 .pr-100 {
   padding-right: 100px;
@@ -6033,32 +6357,152 @@ fastidiosi nei tag */
 .px-50 {
   padding: 0 50px;
 }
+.px-51 {
+  padding: 0 51px;
+}
+.px-52 {
+  padding: 0 52px;
+}
+.px-53 {
+  padding: 0 53px;
+}
+.px-54 {
+  padding: 0 54px;
+}
 .px-55 {
   padding: 0 55px;
+}
+.px-56 {
+  padding: 0 56px;
+}
+.px-57 {
+  padding: 0 57px;
+}
+.px-58 {
+  padding: 0 58px;
+}
+.px-59 {
+  padding: 0 59px;
 }
 .px-60 {
   padding: 0 60px;
 }
-.px-65 {
+.px-61 {
+  padding: 0 61px;
+}
+.px-62 {
+  padding: 0 62px;
+}
+.px-63 {
+  padding: 0 63px;
+}
+.px-64 {
   padding: 0 65px;
+}
+.px-66 {
+  padding: 0 66px;
+}
+.px-67 {
+  padding: 0 67px;
+}
+.px-68 {
+  padding: 0 68px;
+}
+.px-69 {
+  padding: 0 69px;
 }
 .px-70 {
   padding: 0 70px;
 }
+.px-71 {
+  padding: 0 71px;
+}
+.px-72 {
+  padding: 0 72px;
+}
+.px-73 {
+  padding: 0 73px;
+}
+.px-74 {
+  padding: 0 74px;
+}
 .px-75 {
   padding: 0 75px;
+}
+.px-76 {
+  padding: 0 76px;
+}
+.px-77 {
+  padding: 0 77px;
+}
+.px-78 {
+  padding: 0 78px;
+}
+.px-79 {
+  padding: 0 79px;
 }
 .px-80 {
   padding: 0 80px;
 }
+.px-81 {
+  padding: 0 81px;
+}
+.px-82 {
+  padding: 0 82px;
+}
+.px-83 {
+  padding: 0 83px;
+}
+.px-84 {
+  padding: 0 84px;
+}
 .px-85 {
   padding: 0 85px;
+}
+.px-86 {
+  padding: 0 86px;
+}
+.px-87 {
+  padding: 0 87px;
+}
+.px-88 {
+  padding: 0 88px;
+}
+.px-89 {
+  padding: 0 89px;
 }
 .px-90 {
   padding: 0 90px;
 }
+.px-90 {
+  padding: 0 90px;
+}
+.px-91 {
+  padding: 0 91px;
+}
+.px-92 {
+  padding: 0 92px;
+}
+.px-93 {
+  padding: 0 93px;
+}
+.px-94 {
+  padding: 0 94px;
+}
 .px-95 {
   padding: 0 95px;
+}
+.px-96 {
+  padding: 0 96px;
+}
+.px-97 {
+  padding: 0 97px;
+}
+.px-98 {
+  padding: 0 98px;
+}
+.px-99 {
+  padding: 0 99px;
 }
 .px-100 {
   padding: 0 100px;
@@ -6288,32 +6732,152 @@ fastidiosi nei tag */
 .py-50 {
   padding: 50px 0;
 }
+.py-51 {
+  padding: 0 51px;
+}
+.py-52 {
+  padding: 0 52px;
+}
+.py-53 {
+  padding: 0 53px;
+}
+.py-54 {
+  padding: 0 54px;
+}
 .py-55 {
-  padding: 55px 0;
+  padding: 0 55px;
+}
+.py-56 {
+  padding: 0 56px;
+}
+.py-57 {
+  padding: 0 57px;
+}
+.py-58 {
+  padding: 0 58px;
+}
+.py-59 {
+  padding: 0 59px;
 }
 .py-60 {
-  padding: 60px 0;
+  padding: 0 60px;
 }
-.py-65 {
-  padding: 65px 0;
+.py-61 {
+  padding: 0 61px;
+}
+.py-62 {
+  padding: 0 62px;
+}
+.py-63 {
+  padding: 0 63px;
+}
+.py-64 {
+  padding: 0 65px;
+}
+.py-66 {
+  padding: 0 66px;
+}
+.py-67 {
+  padding: 0 67px;
+}
+.py-68 {
+  padding: 0 68px;
+}
+.py-69 {
+  padding: 0 69px;
 }
 .py-70 {
-  padding: 70px 0;
+  padding: 0 70px;
+}
+.py-71 {
+  padding: 0 71px;
+}
+.py-72 {
+  padding: 0 72px;
+}
+.py-73 {
+  padding: 0 73px;
+}
+.py-74 {
+  padding: 0 74px;
 }
 .py-75 {
-  padding: 75px 0;
+  padding: 0 75px;
+}
+.py-76 {
+  padding: 0 76px;
+}
+.py-77 {
+  padding: 0 77px;
+}
+.py-78 {
+  padding: 0 78px;
+}
+.py-79 {
+  padding: 0 79px;
 }
 .py-80 {
-  padding: 80px 0;
+  padding: 0 80px;
+}
+.py-81 {
+  padding: 0 81px;
+}
+.py-82 {
+  padding: 0 82px;
+}
+.py-83 {
+  padding: 0 83px;
+}
+.py-84 {
+  padding: 0 84px;
 }
 .py-85 {
-  padding: 85px 0;
+  padding: 0 85px;
+}
+.py-86 {
+  padding: 0 86px;
+}
+.py-87 {
+  padding: 0 87px;
+}
+.py-88 {
+  padding: 0 88px;
+}
+.py-89 {
+  padding: 0 89px;
 }
 .py-90 {
-  padding: 90px 0;
+  padding: 0 90px;
+}
+.py-90 {
+  padding: 0 90px;
+}
+.py-91 {
+  padding: 0 91px;
+}
+.py-92 {
+  padding: 0 92px;
+}
+.py-93 {
+  padding: 0 93px;
+}
+.py-94 {
+  padding: 0 94px;
 }
 .py-95 {
-  padding: 95px 0;
+  padding: 0 95px;
+}
+.py-96 {
+  padding: 0 96px;
+}
+.py-97 {
+  padding: 0 97px;
+}
+.py-98 {
+  padding: 0 98px;
+}
+.py-99 {
+  padding: 0 99px;
 }
 .py-100 {
   padding: 100px 0;
@@ -6388,7 +6952,7 @@ fastidiosi nei tag */
   padding: 300px 0;
 }
 
-/* UTILITIES MARGIN*/
+/* UTILITIES MAxGIN*/
 .m-0 {
   margin: 0;
 }
@@ -6420,7 +6984,7 @@ fastidiosi nei tag */
   margin: 9px;
 }
 .m-10 {
-  margin: 10px 0;
+  margin: 10px;
 }
 .m-11 {
   margin: 11px;
@@ -6545,32 +7109,152 @@ fastidiosi nei tag */
 .m-50 {
   margin: 50px;
 }
+.m-51 {
+  margin: 51px;
+}
+.m-52 {
+  margin: 52px;
+}
+.m-53 {
+  margin: 53px;
+}
+.m-54 {
+  margin: 54px;
+}
 .m-55 {
   margin: 55px;
+}
+.m-56 {
+  margin: 56px;
+}
+.m-57 {
+  margin: 57px;
+}
+.m-58 {
+  margin: 58px;
+}
+.m-59 {
+  margin: 59px;
 }
 .m-60 {
   margin: 60px;
 }
-.m-65 {
+.m-61 {
+  margin: 61px;
+}
+.m-62 {
+  margin: 62px;
+}
+.m-63 {
+  margin: 63px;
+}
+.m-64 {
   margin: 65px;
+}
+.m-66 {
+  margin: 66px;
+}
+.m-67 {
+  margin: 67px;
+}
+.m-68 {
+  margin: 68px;
+}
+.m-69 {
+  margin: 69px;
 }
 .m-70 {
   margin: 70px;
 }
+.m-71 {
+  margin: 71px;
+}
+.m-72 {
+  margin: 72px;
+}
+.m-73 {
+  margin: 73px;
+}
+.m-74 {
+  margin: 74px;
+}
 .m-75 {
   margin: 75px;
+}
+.m-76 {
+  margin: 76px;
+}
+.m-77 {
+  margin: 77px;
+}
+.m-78 {
+  margin: 78px;
+}
+.m-79 {
+  margin: 79px;
 }
 .m-80 {
   margin: 80px;
 }
+.m-81 {
+  margin: 81px;
+}
+.m-82 {
+  margin: 82px;
+}
+.m-83 {
+  margin: 83px;
+}
+.m-84 {
+  margin: 84px;
+}
 .m-85 {
   margin: 85px;
+}
+.m-86 {
+  margin: 86px;
+}
+.m-87 {
+  margin: 87px;
+}
+.m-88 {
+  margin: 88px;
+}
+.m-89 {
+  margin: 89px;
 }
 .m-90 {
   margin: 90px;
 }
+.m-90 {
+  margin: 90px;
+}
+.m-91 {
+  margin: 91px;
+}
+.m-92 {
+  margin: 92px;
+}
+.m-93 {
+  margin: 93px;
+}
+.m-94 {
+  margin: 94px;
+}
 .m-95 {
   margin: 95px;
+}
+.m-96 {
+  margin: 96px;
+}
+.m-97 {
+  margin: 97px;
+}
+.m-98 {
+  margin: 98px;
+}
+.m-99 {
+  margin: 99px;
 }
 .m-100 {
   margin: 100px;
@@ -6800,32 +7484,152 @@ fastidiosi nei tag */
 .mx-50 {
   margin: 0 50px;
 }
+.mx-51 {
+  margin: 0 51px;
+}
+.mx-52 {
+  margin: 0 52px;
+}
+.mx-53 {
+  margin: 0 53px;
+}
+.mx-54 {
+  margin: 0 54px;
+}
 .mx-55 {
   margin: 0 55px;
+}
+.mx-56 {
+  margin: 0 56px;
+}
+.mx-57 {
+  margin: 0 57px;
+}
+.mx-58 {
+  margin: 0 58px;
+}
+.mx-59 {
+  margin: 0 59px;
 }
 .mx-60 {
   margin: 0 60px;
 }
-.mx-65 {
+.mx-61 {
+  margin: 0 61px;
+}
+.mx-62 {
+  margin: 0 62px;
+}
+.mx-63 {
+  margin: 0 63px;
+}
+.mx-64 {
   margin: 0 65px;
+}
+.mx-66 {
+  margin: 0 66px;
+}
+.mx-67 {
+  margin: 0 67px;
+}
+.mx-68 {
+  margin: 0 68px;
+}
+.mx-69 {
+  margin: 0 69px;
 }
 .mx-70 {
   margin: 0 70px;
 }
+.mx-71 {
+  margin: 0 71px;
+}
+.mx-72 {
+  margin: 0 72px;
+}
+.mx-73 {
+  margin: 0 73px;
+}
+.mx-74 {
+  margin: 0 74px;
+}
 .mx-75 {
   margin: 0 75px;
+}
+.mx-76 {
+  margin: 0 76px;
+}
+.mx-77 {
+  margin: 0 77px;
+}
+.mx-78 {
+  margin: 0 78px;
+}
+.mx-79 {
+  margin: 0 79px;
 }
 .mx-80 {
   margin: 0 80px;
 }
+.mx-81 {
+  margin: 0 81px;
+}
+.mx-82 {
+  margin: 0 82px;
+}
+.mx-83 {
+  margin: 0 83px;
+}
+.mx-84 {
+  margin: 0 84px;
+}
 .mx-85 {
   margin: 0 85px;
+}
+.mx-86 {
+  margin: 0 86px;
+}
+.mx-87 {
+  margin: 0 87px;
+}
+.mx-88 {
+  margin: 0 88px;
+}
+.mx-89 {
+  margin: 0 89px;
 }
 .mx-90 {
   margin: 0 90px;
 }
+.mx-90 {
+  margin: 0 90px;
+}
+.mx-91 {
+  margin: 0 91px;
+}
+.mx-92 {
+  margin: 0 92px;
+}
+.mx-93 {
+  margin: 0 93px;
+}
+.mx-94 {
+  margin: 0 94px;
+}
 .mx-95 {
   margin: 0 95px;
+}
+.mx-96 {
+  margin: 0 96px;
+}
+.mx-97 {
+  margin: 0 97px;
+}
+.mx-98 {
+  margin: 0 98px;
+}
+.mx-99 {
+  margin: 0 99px;
 }
 .mx-100 {
   margin: 0 100px;
@@ -7055,32 +7859,152 @@ fastidiosi nei tag */
 .my-50 {
   margin: 50px 0;
 }
+.my-51 {
+  margin: 51px 0;
+}
+.my-52 {
+  margin: 52px 0;
+}
+.my-53 {
+  margin: 53px 0;
+}
+.my-54 {
+  margin: 54px 0;
+}
 .my-55 {
   margin: 55px 0;
+}
+.my-56 {
+  margin: 56px 0;
+}
+.my-57 {
+  margin: 57px 0;
+}
+.my-58 {
+  margin: 58px 0;
+}
+.my-59 {
+  margin: 59px 0;
 }
 .my-60 {
   margin: 60px 0;
 }
-.my-65 {
+.my-61 {
+  margin: 61px 0;
+}
+.my-62 {
+  margin: 62px 0;
+}
+.my-63 {
+  margin: 63px 0;
+}
+.my-64 {
   margin: 65px 0;
+}
+.my-66 {
+  margin: 66px 0;
+}
+.my-67 {
+  margin: 67px 0;
+}
+.my-68 {
+  margin: 68px 0;
+}
+.my-69 {
+  margin: 69px 0;
 }
 .my-70 {
   margin: 70px 0;
 }
+.my-71 {
+  margin: 71px 0;
+}
+.my-72 {
+  margin: 72px 0;
+}
+.my-73 {
+  margin: 73px 0;
+}
+.my-74 {
+  margin: 74px 0;
+}
 .my-75 {
   margin: 75px 0;
+}
+.my-76 {
+  margin: 76px 0;
+}
+.my-77 {
+  margin: 77px 0;
+}
+.my-78 {
+  margin: 78px 0;
+}
+.my-79 {
+  margin: 79px 0;
 }
 .my-80 {
   margin: 80px 0;
 }
+.my-81 {
+  margin: 81px 0;
+}
+.my-82 {
+  margin: 82px 0;
+}
+.my-83 {
+  margin: 83px 0;
+}
+.my-84 {
+  margin: 84px 0;
+}
 .my-85 {
   margin: 85px 0;
+}
+.my-86 {
+  margin: 86px 0;
+}
+.my-87 {
+  margin: 87px 0;
+}
+.my-88 {
+  margin: 88px 0;
+}
+.my-89 {
+  margin: 89px 0;
 }
 .my-90 {
   margin: 90px 0;
 }
+.my-90 {
+  margin: 90px 0;
+}
+.my-91 {
+  margin: 91px 0;
+}
+.my-92 {
+  margin: 92px 0;
+}
+.my-93 {
+  margin: 93px 0;
+}
+.my-94 {
+  margin: 94px 0;
+}
 .my-95 {
   margin: 95px 0;
+}
+.my-96 {
+  margin: 96px 0;
+}
+.my-97 {
+  margin: 97px 0;
+}
+.my-98 {
+  margin: 98px 0;
+}
+.my-99 {
+  margin: 99px 0;
 }
 .my-100 {
   margin: 100px 0;
@@ -7312,32 +8236,152 @@ fastidiosi nei tag */
 .mt-50 {
   margin-top: 50px;
 }
+.mt-51 {
+  margin-top: 51px;
+}
+.mt-52 {
+  margin-top: 52px;
+}
+.mt-53 {
+  margin-top: 53px;
+}
+.mt-54 {
+  margin-top: 54px;
+}
 .mt-55 {
   margin-top: 55px;
+}
+.mt-56 {
+  margin-top: 56px;
+}
+.mt-57 {
+  margin-top: 57px;
+}
+.mt-58 {
+  margin-top: 58px;
+}
+.mt-59 {
+  margin-top: 59px;
 }
 .mt-60 {
   margin-top: 60px;
 }
-.mt-65 {
+.mt-61 {
+  margin-top: 61px;
+}
+.mt-62 {
+  margin-top: 62px;
+}
+.mt-63 {
+  margin-top: 63px;
+}
+.mt-64 {
   margin-top: 65px;
+}
+.mt-66 {
+  margin-top: 66px;
+}
+.mt-67 {
+  margin-top: 67px;
+}
+.mt-68 {
+  margin-top: 68px;
+}
+.mt-69 {
+  margin-top: 69px;
 }
 .mt-70 {
   margin-top: 70px;
 }
+.mt-71 {
+  margin-top: 71px;
+}
+.mt-72 {
+  margin-top: 72px;
+}
+.mt-73 {
+  margin-top: 73px;
+}
+.mt-74 {
+  margin-top: 74px;
+}
 .mt-75 {
   margin-top: 75px;
+}
+.mt-76 {
+  margin-top: 76px;
+}
+.mt-77 {
+  margin-top: 77px;
+}
+.mt-78 {
+  margin-top: 78px;
+}
+.mt-79 {
+  margin-top: 79px;
 }
 .mt-80 {
   margin-top: 80px;
 }
+.mt-81 {
+  margin-top: 81px;
+}
+.mt-82 {
+  margin-top: 82px;
+}
+.mt-83 {
+  margin-top: 83px;
+}
+.mt-84 {
+  margin-top: 84px;
+}
 .mt-85 {
   margin-top: 85px;
+}
+.mt-86 {
+  margin-top: 86px;
+}
+.mt-87 {
+  margin-top: 87px;
+}
+.mt-88 {
+  margin-top: 88px;
+}
+.mt-89 {
+  margin-top: 89px;
 }
 .mt-90 {
   margin-top: 90px;
 }
+.mt-90 {
+  margin-top: 90px;
+}
+.mt-91 {
+  margin-top: 91px;
+}
+.mt-92 {
+  margin-top: 92px;
+}
+.mt-93 {
+  margin-top: 93px;
+}
+.mt-94 {
+  margin-top: 94px;
+}
 .mt-95 {
   margin-top: 95px;
+}
+.mt-96 {
+  margin-top: 96px;
+}
+.mt-97 {
+  margin-top: 97px;
+}
+.mt-98 {
+  margin-top: 98px;
+}
+.mt-99 {
+  margin-top: 99px;
 }
 .mt-100 {
   margin-top: 100px;
@@ -7569,32 +8613,152 @@ fastidiosi nei tag */
 .ml-50 {
   margin-left: 50px;
 }
+.ml-51 {
+  margin-left: 51px;
+}
+.ml-52 {
+  margin-left: 52px;
+}
+.ml-53 {
+  margin-left: 53px;
+}
+.ml-54 {
+  margin-left: 54px;
+}
 .ml-55 {
   margin-left: 55px;
+}
+.ml-56 {
+  margin-left: 56px;
+}
+.ml-57 {
+  margin-left: 57px;
+}
+.ml-58 {
+  margin-left: 58px;
+}
+.ml-59 {
+  margin-left: 59px;
 }
 .ml-60 {
   margin-left: 60px;
 }
-.ml-65 {
+.ml-61 {
+  margin-left: 61px;
+}
+.ml-62 {
+  margin-left: 62px;
+}
+.ml-63 {
+  margin-left: 63px;
+}
+.ml-64 {
   margin-left: 65px;
+}
+.ml-66 {
+  margin-left: 66px;
+}
+.ml-67 {
+  margin-left: 67px;
+}
+.ml-68 {
+  margin-left: 68px;
+}
+.ml-69 {
+  margin-left: 69px;
 }
 .ml-70 {
   margin-left: 70px;
 }
+.ml-71 {
+  margin-left: 71px;
+}
+.ml-72 {
+  margin-left: 72px;
+}
+.ml-73 {
+  margin-left: 73px;
+}
+.ml-74 {
+  margin-left: 74px;
+}
 .ml-75 {
   margin-left: 75px;
+}
+.ml-76 {
+  margin-left: 76px;
+}
+.ml-77 {
+  margin-left: 77px;
+}
+.ml-78 {
+  margin-left: 78px;
+}
+.ml-79 {
+  margin-left: 79px;
 }
 .ml-80 {
   margin-left: 80px;
 }
+.ml-81 {
+  margin-left: 81px;
+}
+.ml-82 {
+  margin-left: 82px;
+}
+.ml-83 {
+  margin-left: 83px;
+}
+.ml-84 {
+  margin-left: 84px;
+}
 .ml-85 {
   margin-left: 85px;
+}
+.ml-86 {
+  margin-left: 86px;
+}
+.ml-87 {
+  margin-left: 87px;
+}
+.ml-88 {
+  margin-left: 88px;
+}
+.ml-89 {
+  margin-left: 89px;
 }
 .ml-90 {
   margin-left: 90px;
 }
+.ml-90 {
+  margin-left: 90px;
+}
+.ml-91 {
+  margin-left: 91px;
+}
+.ml-92 {
+  margin-left: 92px;
+}
+.ml-93 {
+  margin-left: 93px;
+}
+.ml-94 {
+  margin-left: 94px;
+}
 .ml-95 {
   margin-left: 95px;
+}
+.ml-96 {
+  margin-left: 96px;
+}
+.ml-97 {
+  margin-left: 97px;
+}
+.ml-98 {
+  margin-left: 98px;
+}
+.ml-99 {
+  margin-left: 99px;
 }
 .ml-100 {
   margin-left: 100px;
@@ -7826,32 +8990,152 @@ fastidiosi nei tag */
 .mb-50 {
   margin-bottom: 50px;
 }
+.mb-51 {
+  margin-bottom: 51px;
+}
+.mb-52 {
+  margin-bottom: 52px;
+}
+.mb-53 {
+  margin-bottom: 53px;
+}
+.mb-54 {
+  margin-bottom: 54px;
+}
 .mb-55 {
   margin-bottom: 55px;
+}
+.mb-56 {
+  margin-bottom: 56px;
+}
+.mb-57 {
+  margin-bottom: 57px;
+}
+.mb-58 {
+  margin-bottom: 58px;
+}
+.mb-59 {
+  margin-bottom: 59px;
 }
 .mb-60 {
   margin-bottom: 60px;
 }
-.mb-65 {
+.mb-61 {
+  margin-bottom: 61px;
+}
+.mb-62 {
+  margin-bottom: 62px;
+}
+.mb-63 {
+  margin-bottom: 63px;
+}
+.mb-64 {
   margin-bottom: 65px;
+}
+.mb-66 {
+  margin-bottom: 66px;
+}
+.mb-67 {
+  margin-bottom: 67px;
+}
+.mb-68 {
+  margin-bottom: 68px;
+}
+.mb-69 {
+  margin-bottom: 69px;
 }
 .mb-70 {
   margin-bottom: 70px;
 }
+.mb-71 {
+  margin-bottom: 71px;
+}
+.mb-72 {
+  margin-bottom: 72px;
+}
+.mb-73 {
+  margin-bottom: 73px;
+}
+.mb-74 {
+  margin-bottom: 74px;
+}
 .mb-75 {
   margin-bottom: 75px;
+}
+.mb-76 {
+  margin-bottom: 76px;
+}
+.mb-77 {
+  margin-bottom: 77px;
+}
+.mb-78 {
+  margin-bottom: 78px;
+}
+.mb-79 {
+  margin-bottom: 79px;
 }
 .mb-80 {
   margin-bottom: 80px;
 }
+.mb-81 {
+  margin-bottom: 81px;
+}
+.mb-82 {
+  margin-bottom: 82px;
+}
+.mb-83 {
+  margin-bottom: 83px;
+}
+.mb-84 {
+  margin-bottom: 84px;
+}
 .mb-85 {
   margin-bottom: 85px;
+}
+.mb-86 {
+  margin-bottom: 86px;
+}
+.mb-87 {
+  margin-bottom: 87px;
+}
+.mb-88 {
+  margin-bottom: 88px;
+}
+.mb-89 {
+  margin-bottom: 89px;
 }
 .mb-90 {
   margin-bottom: 90px;
 }
+.mb-90 {
+  margin-bottom: 90px;
+}
+.mb-91 {
+  margin-bottom: 91px;
+}
+.mb-92 {
+  margin-bottom: 92px;
+}
+.mb-93 {
+  margin-bottom: 93px;
+}
+.mb-94 {
+  margin-bottom: 94px;
+}
 .mb-95 {
   margin-bottom: 95px;
+}
+.mb-96 {
+  margin-bottom: 96px;
+}
+.mb-97 {
+  margin-bottom: 97px;
+}
+.mb-98 {
+  margin-bottom: 98px;
+}
+.mb-99 {
+  margin-bottom: 99px;
 }
 .mb-100 {
   margin-bottom: 100px;
@@ -8083,32 +9367,152 @@ fastidiosi nei tag */
 .mr-50 {
   margin-right: 50px;
 }
+.mr-51 {
+  margin-right: 51px;
+}
+.mr-52 {
+  margin-right: 52px;
+}
+.mr-53 {
+  margin-right: 53px;
+}
+.mr-54 {
+  margin-right: 54px;
+}
 .mr-55 {
   margin-right: 55px;
+}
+.mr-56 {
+  margin-right: 56px;
+}
+.mr-57 {
+  margin-right: 57px;
+}
+.mr-58 {
+  margin-right: 58px;
+}
+.mr-59 {
+  margin-right: 59px;
 }
 .mr-60 {
   margin-right: 60px;
 }
-.mr-65 {
+.mr-61 {
+  margin-right: 61px;
+}
+.mr-62 {
+  margin-right: 62px;
+}
+.mr-63 {
+  margin-right: 63px;
+}
+.mr-64 {
   margin-right: 65px;
+}
+.mr-66 {
+  margin-right: 66px;
+}
+.mr-67 {
+  margin-right: 67px;
+}
+.mr-68 {
+  margin-right: 68px;
+}
+.mr-69 {
+  margin-right: 69px;
 }
 .mr-70 {
   margin-right: 70px;
 }
+.mr-71 {
+  margin-right: 71px;
+}
+.mr-72 {
+  margin-right: 72px;
+}
+.mr-73 {
+  margin-right: 73px;
+}
+.mr-74 {
+  margin-right: 74px;
+}
 .mr-75 {
   margin-right: 75px;
+}
+.mr-76 {
+  margin-right: 76px;
+}
+.mr-77 {
+  margin-right: 77px;
+}
+.mr-78 {
+  margin-right: 78px;
+}
+.mr-79 {
+  margin-right: 79px;
 }
 .mr-80 {
   margin-right: 80px;
 }
+.mr-81 {
+  margin-right: 81px;
+}
+.mr-82 {
+  margin-right: 82px;
+}
+.mr-83 {
+  margin-right: 83px;
+}
+.mr-84 {
+  margin-right: 84px;
+}
 .mr-85 {
   margin-right: 85px;
+}
+.mr-86 {
+  margin-right: 86px;
+}
+.mr-87 {
+  margin-right: 87px;
+}
+.mr-88 {
+  margin-right: 88px;
+}
+.mr-89 {
+  margin-right: 89px;
 }
 .mr-90 {
   margin-right: 90px;
 }
+.mr-90 {
+  margin-right: 90px;
+}
+.mr-91 {
+  margin-right: 91px;
+}
+.mr-92 {
+  margin-right: 92px;
+}
+.mr-93 {
+  margin-right: 93px;
+}
+.mr-94 {
+  margin-right: 94px;
+}
 .mr-95 {
   margin-right: 95px;
+}
+.mr-96 {
+  margin-right: 96px;
+}
+.mr-97 {
+  margin-right: 97px;
+}
+.mr-98 {
+  margin-right: 98px;
+}
+.mr-99 {
+  margin-right: 99px;
 }
 .mr-100 {
   margin-right: 100px;
