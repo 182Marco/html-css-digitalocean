@@ -41,10 +41,21 @@ nav > a {
 }
 /* menu mobile */
 .menu-mobile {
-  left: 0;
   top: 100%;
   height: calc(100vh - 60px);
+  animation: slid 0.3s ease forwards;
 }
+
+@keyframes slid {
+  0% {
+    left: -100%;
+  }
+
+  100% {
+    left: 0%;
+  }
+}
+
 .menu-mobile ul {
   height: calc(100vh - 60px);
 }
