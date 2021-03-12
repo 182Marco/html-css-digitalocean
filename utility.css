@@ -87,7 +87,7 @@
   box-sizing: border-box;
 }
 /* flex */
-.flex-x {
+.flex {
   display: flex;
 }
 .flex-y {
@@ -221,13 +221,29 @@
   position: fixed;
   z-index: 10;
 }
-/* UTILITIES di display */
+/* UTILITIES inerenti le immagini */
 
+.object-fit-cover {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.object-fit-contain {
+  object-fit: contain;
+}
 .vertical-middle {
   vertical-align: middle;
 }
 .vertical-align-sub {
   vertical-align: sub;
+}
+/* UTILITIES gestione overflow */
+.overflow-y {
+  height: 100%;
+  overflow-y: auto;
+}
+.overflow-hidden {
+  overflow: hidden;
 }
 /* UTILITIES gestione dei float */
 .clear-fix::after {
@@ -280,13 +296,13 @@ fastidiosi nei tag */
   border: 0;
 }
 /* z-index */
-.z-index-10{
+.z-index-10 {
   z-index: 10;
 }
-.z-index-20{
+.z-index-20 {
   z-index: 20;
 }
-.z-index-10minus{
+.z-index-10minus {
   z-index: -10;
 }
 /* UTILITIES spessori bordi */
